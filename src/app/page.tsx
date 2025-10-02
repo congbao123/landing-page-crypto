@@ -1,103 +1,75 @@
 import Image from "next/image";
-
+import bitcoin from "../../public/bitcoin.png";
+import Ethicon from "../../public/ethereum.png";
+import solanaicon from "../../public/solana.png";
+import Headers from "./components/Header";
+import Footer from "./components/Footer";
+interface StatItem {
+  value: string;
+  description: string;
+  label: string;
+}
 export default function Home() {
+  const statsData: StatItem[] = [
+    { value: "1.2M+", description: "Người dùng tin tưởng", label: "CryptoEx" },
+    { value: "99.9%", description: "Thời gian hoạt động", label: "Uptime" },
+    { value: "$60B+", description: "Khối lượng giao dịch", label: "Volume" },
+    { value: "24/7", description: "Hỗ trợ khách hàng", label: "Support" },
+  ];
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+   <div className="h-screen bg-black ">
+    <Headers />
+        <div className="h-[500px] mt-16 inset-0 bg-gradient-to-br from-orange-500/10 via-transparent to-yellow-500/10 justify-center items-center flex ">
+          <div className="text-white justify-center items-center flex flex-col gap-6">
+            <span className="text-[12px] flex items-center">
+        <span className="inline-block w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></span>
+                      Thông báo: Nền tảng giao dịch crypto hàng đầu Việt Nam
+                     </span>
+            <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">Nền tảng giao dịch</h1>
+            <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold"><span className="text-orange-500">Cryptocurrency</span> hàng đầu </h1>
+           <p className="text-gray-400 text-[14px] md:text-[24px] sm:text-[18px]">Giao dịch, rút tiền và nạp tiền một cách an toàn với <br />công nghệ blockchain tiên tiến.
+             Nền tảng của chúng <br />tôi hỗ trợ hơn 100+ loại cryptocurrency phổ biến. </p> 
+             <div className="flex gap-4">
+              <button className="bg-amber-700 h-10 px-6 rounded-md  hover:scale-105 transition-all duration-300">Bắt đầu giao dịch </button>
+              <button className="bg-black h-10 px-6 rounded-md  hover:bg-amber-700 hover:scale-105 transition-all duration-300">Tìm hiểu thêm</button>
+             </div>
+          </div>
+          {/* Thêm 3 icon */}
         <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+          src={solanaicon}
+          alt="icon-solana"
+          width={60}
+          height={60}
+          className="absolute block md:block lg:block top-90 left-77"
         />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+        <Image
+          src={bitcoin}
+          alt="icon-bitcoin"
+          width={60}
+          height={60}
+          className="absolute block md:hidden lg:block top-50 left-67"
+        />
+        <Image
+          src={Ethicon}
+          alt="icon-ETH"
+          width={45}
+          height={45}
+          className="absolute block md:hidden lg:block top-76 right-67"
+        />
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+             
+             <div className="bg-gradient-to-br from-orange-500/10 via-transparent to-yellow-500/10 text-white mt-7 py-12 px-4">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+        {statsData.map((item, index) => (
+          <div key={index} className="flex flex-col hover:scale-105 transition-all duration-300 items-center">
+            <h3 className="text-4xl font-bold text-orange-500">{item.value}</h3>
+            <p className="text-sm  text-gray-400">{item.description}</p>
+            <p className="text-xs  text-gray-500">{item.label}</p>
+          </div>
+        ))}
+      </div>
     </div>
+    <Footer />
+        </div>
   );
 }
