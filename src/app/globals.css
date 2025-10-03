@@ -24,3 +24,26 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Toàn bộ scrollbar */
+::-webkit-scrollbar {
+  width: 8px;              /* độ rộng thanh */
+  height: 8px;             /* cho scrollbar ngang */
+}
+
+/* Background của scrollbar */
+::-webkit-scrollbar-track {
+  background: #0a0a0a;     /* nền track */
+}
+
+/* Thanh cuộn */
+::-webkit-scrollbar-thumb {
+  background-color: #f97316;  /* màu cam Tailwind (orange-500) */
+  border-radius: 9999px;      /* bo tròn */
+  border: 2px solid #0a0a0a;  /* viền cùng màu background để nổi */
+}
+
+/* Khi hover vào thanh */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #fb923c;  /* màu cam nhạt hơn (orange-400) */
+}
