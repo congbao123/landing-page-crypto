@@ -1,6 +1,7 @@
 "use client"
 
 import { Database, Coins, ShoppingBag, Shuffle, ArrowRight } from "lucide-react"
+import { Button } from "./Button"
 
 const Web3Features = () => {
   const features = [
@@ -39,11 +40,11 @@ const Web3Features = () => {
   ]
 
   return (
-    <section className="bg-gradient-to-b from-gray-900 to-black text-white py-16 px-6">
+    <section id="web3" className="bg-gradient-to-b from-gray-900 to-black text-white py-16 px-6">
       <div className="max-w-6xl mx-auto text-center">
         {/* Title */}
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          Tính năng <span className="text-indigo-400">Web3</span> tiên tiến
+          Tính năng <span className="text-amber-700">Web3</span> tiên tiến
         </h2>
         <p className="text-gray-400 max-w-2xl mx-auto mb-12">
           Khám phá thế giới DeFi, NFT và các công nghệ blockchain mới nhất
@@ -74,9 +75,9 @@ const Web3Features = () => {
 
         {/* CTA button */}
         <div className="mt-12">
-          <button className="px-6 py-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 font-semibold hover:scale-105 transition-all duration-300">
+          <Button className="px-6 py-3 rounded-lg bg-gradient-to-r hover:text-black hover:scale-105 transition-all duration-300">
             Khám phá Web3 <ArrowRight className="inline-block  ml-2" />
-          </button>
+          </Button>
         </div>
       </div>
     </section>

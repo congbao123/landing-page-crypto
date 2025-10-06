@@ -1,9 +1,9 @@
-import { Shield, Lock, TrendingUp } from "lucide-react"
+import { Zap, Lock, TrendingUp } from "lucide-react"
 
 export default function Features() {
   const features = [
     {
-      icon: Shield,
+      icon: Zap,
       title: "Giao dịch tức thời",
       description:
         "Thực hiện giao dịch crypto với tốc độ ánh sáng. Hệ thống matching engine tiên tiến đảm bảo giao dịch được thực hiện trong vòng milliseconds.",
@@ -23,7 +23,7 @@ export default function Features() {
   ]
 
   return (
-    <div className="bg-black text-white py-20 px-4">
+    <div id="features" className="bg-black text-white py-20 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">

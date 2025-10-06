@@ -1,11 +1,13 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import { Button } from "./Button"
 
 
 
 // Helper format function
 function formatPrice(num: number) {
+  
   if (num >= 1000) return num.toLocaleString("en-US", { maximumFractionDigits: 2 }) // 12,345.67
   if (num >= 1) return num.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) // 123.45
   return num.toPrecision(6) // giá nhỏ thì giữ 6 chữ số có nghĩa
@@ -84,12 +86,12 @@ export default function TradingTerminal() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white p-8 lg:p-16">
+    <div id="trading"  className="min-h-screen bg-[#0a0a0a] text-white p-8 lg:p-16">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
         {/* Bên trái */}
         <div className="space-y-8">
           <h1 className="text-4xl lg:text-5xl font-bold leading-tight">
-            Giao diện giao dịch <span className="text-orange-500">chuyên nghiệp</span>
+            Giao diện giao dịch <span className="text-amber-700">chuyên nghiệp</span>
           </h1>
 
           <p className="text-gray-400 text-lg leading-relaxed">
@@ -112,9 +114,9 @@ export default function TradingTerminal() {
             </li>
           </ul>
 
-          <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-lg transition-colors">
+          <Button className=" hover:text-black hover:scale-105 transition-all duration-300 font-semibold px-8 py-4 rounded-lg ">
             Khám phá nền tảng
-          </button>
+          </Button>
         </div>
 
         {/* Bên phải - Trading Terminal */}
@@ -127,13 +129,13 @@ export default function TradingTerminal() {
                 <div className="w-3 h-3 rounded-full bg-yellow-500" />
                 <div className="w-3 h-3 rounded-full bg-green-500" />
               </div>
-              <span className="ml-4 text-gray-400 text-sm font-mono">CryptoEx Trading Terminal</span>
+              <span className="ml-4 text-gray-400 text-sm font-mono">Bitgoget Trading Terminal</span>
             </div>
             <div className="bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full animate-pulse">LIVE</div>
           </div>
 
           {/* Giá */}
-          <div className="grid grid-cols-2 gap-6 mb-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-4 sm:mb-6">
             {/* BTC */}
             <div>
               <div className="text-gray-400 text-sm mb-2">{btcData.symbol}</div>

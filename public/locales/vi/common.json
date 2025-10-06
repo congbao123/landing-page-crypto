@@ -1,0 +1,48 @@
+{
+  "header": {
+    "brand": "CryptoTCB",
+    "features": "Tính năng",
+    "web3": "Web3",
+    "trading": "Giao dịch",
+    "about": "Về chúng tôi",
+    "login": "Đăng nhập",
+    "signup": "Đăng ký ngay"
+  },
+  "footer": {
+    "description": "Nền tảng giao dịch cryptocurrency hàng đầu Việt Nam, cung cấp dịch vụ an toàn và đa dạng.",
+    "products": "Sản phẩm",
+    "spotTrading": "Giao dịch Spot",
+    "futuresTrading": "Giao dịch Futures",
+    "apiTrading": "API Trading",
+    "eWallet": "Ví điện tử",
+    "support": "Hỗ trợ",
+    "helpCenter": "Trung tâm trợ giúp",
+    "contact": "Liên hệ",
+    "reportBug": "Báo cáo lỗi",
+    "systemStatus": "Tình trạng hệ thống",
+    "company": "Công ty",
+    "aboutUs": "Về chúng tôi",
+    "careers": "Nghe nghiệp",
+    "news": "Tin tức",
+    "partners": "Đối tác",
+    "copyright": "© 2025 CryptoEx. Tất cả quyền được bảo lưu.",
+    "terms": "Điều khoản",
+    "privacy": "Bảo mật",
+    "cookies": "Cookie"
+  },
+  "hero": {
+    "badge": "Thông báo: Nền tảng giao dịch crypto hàng đầu thế giới",
+    "title": "Nền tảng giao dịch",
+    "titleHighlight": "Cryptocurrency",
+    "titleEnd": "hàng đầu",
+    "description": "Giao dịch, rút tiền và nạp tiền một cách an toàn với công nghệ blockchain tiên tiến. Nền tảng của chúng tôi hỗ trợ hơn 100+ loại cryptocurrency phổ biến.",
+    "startTrading": "Bắt đầu giao dịch",
+    "learnMore": "Tìm hiểu thêm"
+  },
+  "stats": {
+    "users": "Người dùng tin tưởng",
+    "uptime": "Thời gian hoạt động",
+    "volume": "Khối lượng giao dịch",
+    "support": "Hỗ trợ khách hàng"
+  }
+}
