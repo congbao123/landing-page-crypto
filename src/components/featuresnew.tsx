@@ -1,35 +1,37 @@
-import { Zap, Lock, TrendingUp } from "lucide-react"
+'use client';
+
+import { Zap, Lock, TrendingUp } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 export default function Features() {
+  const t = useTranslations('features');
+
   const features = [
     {
       icon: Zap,
-      title: "Giao dịch tức thời",
-      description:
-        "Thực hiện giao dịch crypto với tốc độ ánh sáng. Hệ thống matching engine tiên tiến đảm bảo giao dịch được thực hiện trong vòng milliseconds.",
+      title: t('features.0.title'),
+      description: t('features.0.description'),
     },
     {
       icon: Lock,
-      title: "Bảo mật tuyệt đối",
-      description:
-        "Quản lý rủi ro thông minh với công nghệ AI. Theo dõi danh mục đầu tư và nhận cảnh báo về các biến động thị trường quan trọng.",
+      title: t('features.1.title'),
+      description: t('features.1.description'),
     },
     {
       icon: TrendingUp,
-      title: "Chiến lược tùy chỉnh",
-      description:
-        "Xây dựng các chiến lược giao dịch tự động, tái cân bằng danh mục và tối ưu hóa lợi nhuận với các công cụ phân tích chuyên sâu.",
+      title: t('features.2.title'),
+      description: t('features.2.description'),
     },
-  ]
+  ];
 
   return (
     <div id="features" className="bg-black text-white py-20 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-6">Tính năng vượt trội</h2>
+          <h2 className="text-4xl lg:text-5xl font-bold mb-6">{t('title')}</h2>
           <p className="text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed">
-            Trải nghiệm giao dịch cryptocurrency hoàn hảo với các tính năng tiên tiến nhất
+            {t('description')}
           </p>
         </div>
 
@@ -56,5 +58,5 @@ export default function Features() {
         </div>
       </div>
     </div>
-  )
+  );
 }

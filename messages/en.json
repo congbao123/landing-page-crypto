@@ -1,0 +1,133 @@
+{
+  "header": {
+    "brand": "CryptoTCB",
+    "features": "Features",
+    "web3": "Web3",
+    "trading": "Trading",
+    "about": "About Us",
+    "login": "Login",
+    "signup": "Sign Up"
+  },
+  "footer": {
+    "description": "Vietnam's leading cryptocurrency trading platform, providing safe and diverse services.",
+    "products": "Products",
+    "spotTrading": "Spot Trading",
+    "futuresTrading": "Futures Trading",
+    "apiTrading": "API Trading",
+    "eWallet": "E-Wallet",
+    "support": "Support",
+    "helpCenter": "Help Center",
+    "contact": "Contact",
+    "reportBug": "Report Bug",
+    "systemStatus": "System Status",
+    "company": "Company",
+    "aboutUs": "About Us",
+    "careers": "Careers",
+    "news": "News",
+    "partners": "Partners",
+    "copyright": "© 2025 CryptoEx. All rights reserved.",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "cookies": "Cookies"
+  },
+  "hero": {
+    "badge": "Announcement: World's Leading Crypto Trading Platform",
+    "title": "Leading",
+    "titleHighlight": "Cryptocurrency",
+    "titleEnd": "Trading Platform",
+    "description": "Trade, withdraw, and deposit securely with advanced blockchain technology. Our platform supports over 100+ popular cryptocurrencies.",
+    "startTrading": "Start Trading",
+    "learnMore": "Learn More"
+  },
+  "stats": {
+    "users": "Trusted Users",
+    "uptime": "Uptime",
+    "volume": "Trading Volume",
+    "support": "Customer Support"
+  },
+
+  "features": {
+    "title": "Outstanding Features",
+    "description": "Experience perfect cryptocurrency trading with the most advanced features",
+    "features": [
+      {
+        "title": "Instant Trading",
+        "description": "Execute crypto trades at lightning speed. Our advanced matching engine ensures transactions are completed within milliseconds."
+      },
+      {
+        "title": "Absolute Security",
+        "description": "Smart risk management with AI technology. Monitor your portfolio and receive alerts for significant market fluctuations."
+      },
+      {
+        "title": "Custom Strategies",
+        "description": "Build automated trading strategies, rebalance your portfolio, and optimize profits with in-depth analytical tools."
+      }
+    ]
+  },
+  "web3": {
+    "title": "Advanced",
+    "title-mid": "Web3",
+    "title-end": "Features",
+    "description": "Explore the world of DeFi, NFT, and the latest blockchain technologies",
+    "features": [
+      {
+        "title": "DeFi Integration",
+        "description": "Connect with top DeFi protocols like Uniswap, Compound, and Aave to maximize profits."
+      },
+      {
+        "title": "Yield Farming",
+        "description": "Participate in yield farming and liquidity mining to earn passive income from crypto holdings."
+      },
+      {
+        "title": "NFT Marketplace",
+        "description": "Buy and sell NFTs with a seamless experience, fully supporting ERC-721 and ERC-1155 standards."
+      },
+      {
+        "title": "Cross-Chain Bridge",
+        "description": "Seamlessly and quickly transfer assets across different blockchains."
+      }
+    ],
+    "cta": "Explore Web3"
+  },
+
+  "trading": {
+    "title": "Trading Interface",
+    "titleHighlight": "Professional",
+    "titleEnd": "",
+    "description": "A trading platform designed for both beginners and professional traders. Fully integrated with technical analysis tools and risk management features.",
+    "features": [
+      "Spot & Futures Trading",
+      "Fast Withdrawals & Deposits",
+      "API Trading for Developers"
+    ],
+    "cta": "Explore the Platform",
+    "terminal": {
+      "header": "Bitgoget Trading Terminal",
+      "live": "LIVE",
+      "volume24h": "24h Volume",
+      "openOrders": "Open Orders",
+      "fee": "Trading Fee"
+    }
+  },
+    
+  "about": {
+    "title": "About",
+    "titleHighlight": "BitGoGet",
+    "titleEnd": "",
+    "description": "We are the world's leading cryptocurrency trading platform, committed to providing a safe, fast, and reliable trading experience for over 1 million users worldwide.",
+    "features": [
+      {
+        "title": "Reliable",
+        "description": "Licensed and regulated by financial authorities"
+      },
+      {
+        "title": "Fast",
+        "description": "Trades executed within milliseconds"
+      },
+      {
+        "title": "24/7 Support",
+        "description": "Professional customer support team"
+      }
+    ]
+  }
+}

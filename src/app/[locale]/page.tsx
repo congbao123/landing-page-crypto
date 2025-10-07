@@ -1,18 +1,19 @@
 "use client";
 
 import Image from "next/image";
-import bitcoin from "../../public/Img/bitcoin.png";
-import Ethicon from "../../public/Img/ethereum.png";
-import solanaicon from "../../public/Img/solana.png";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import FeaturesNew from "../components/featuresnew";
-import Web3Features from "../components/Web3Features ";
+import bitcoin from "../../../public/Img/bitcoin.png";
+import Ethicon from "../../../public/Img/ethereum.png";
+import solanaicon from "../../../public/Img/solana.png";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import FeaturesNew from "../../components/featuresnew";
+import Web3Features from "../../components/Web3Features ";
 import { ArrowRight } from "lucide-react";
-import TradingTerminal from "../components/TradingTerminal";
-import { Button } from "../components/Button";
-import AboutUs from "../components/AboutUs";
+import TradingTerminal from "../../components/TradingTerminal";
+import { Button } from "../../components/Button";
+import AboutUs from "../../components/AboutUs";
 import { useTranslation } from "next-i18next";
+import { useTranslations } from "next-intl";
 
 interface StatItem {
   value: string;
@@ -21,11 +22,13 @@ interface StatItem {
 }
 
 export default function Home() {
+  const t = useTranslations('hero');
+const b = useTranslations('stats');
   const statsData: StatItem[] = [
-    { value: "1.2M+", description: "Người dùng tin tưởng", label: "CryptoEx" },
-    { value: "99.9%", description: "Thời gian hoạt động", label: "Uptime" },
-    { value: "$60B+", description: "Khối lượng giao dịch", label: "Volume" },
-    { value: "24/7", description: "Hỗ trợ khách hàng", label: "Support" },
+    { value: "1.2M+", description: b('users'), label: "CryptoEx" },
+    { value: "99.9%", description: b('uptime'), label: "Uptime" },
+    { value: "$60B+", description: b('volume'), label: "Volume" },
+    { value: "24/7", description: b('support'), label: "Support" },
   ];
 
   return (
@@ -35,23 +38,25 @@ export default function Home() {
         <div className="text-white text-center flex flex-col gap-6">
           <span className="text-[12px] flex items-center justify-center">
             <span className="inline-block w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></span>
-            Thông báo: Nền tảng giao dịch crypto hàng đầu thế giới
+            {t('badge')}
           </span>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
-            Nền tảng giao dịch
+            {t('title')}
           </h1>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
-            <span className="text-orange-500">Cryptocurrency</span> hàng đầu
+            <span className="text-orange-500">{t('titleHighlight')}</span> {t('titleEnd')}
           </h1>
-          <p className="text-gray-400 text-[14px] md:text-[24px] sm:text-[18px]">
-            Giao dịch, rút tiền và nạp tiền một cách an toàn với <br />công nghệ blockchain tiên tiến. Nền tảng của chúng <br />tôi hỗ trợ hơn 100+ loại cryptocurrency phổ biến.
-          </p>
+          <p className="text-gray-400 text-[14px] sm:text-[18px] md:text-[24px]
+              max-w-3xl mx-auto text-center whitespace-normal break-words">
+  {t('description')}
+</p>
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button className="h-10 px-6 rounded-md hover:text-black hover:scale-105 transition-all duration-300">
-              Bắt đầu giao dịch <ArrowRight className="inline-block ml-2" />
+              {t('startTrading')} <ArrowRight className="inline-block ml-2" />
             </Button>
             <Button className="bg-black h-10 px-6 rounded-md hover:text-black hover:bg-amber-700 hover:scale-105 transition-all duration-300">
-              Tìm hiểu thêm
+              {t('learnMore')}
             </Button>
           </div>
         </div>

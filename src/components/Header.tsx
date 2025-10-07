@@ -1,16 +1,15 @@
-"use client";
+'use client';
 
 import Link from "next/link";
 import { useState } from "react";
-import { useTranslation } from 'next-i18next';
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import { Button } from "./Button";
-import logobgg from "../../public/Img/logo-text.webp";
+import { useTranslations } from 'next-intl';
 import Image from "next/image";
-import { GetStaticPropsContext } from "next/types";
+import logobgg from "../../public/Img/logo-text.webp";
+import { Button } from "./Button"; // Giả sử Button là component riêng, điều chỉnh đường dẫn nếu cần
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Header = () => {
-  const { t } = useTranslation('common');
+  const t = useTranslations('header'); // Sử dụng namespace 'header' từ JSON
   const [open, setOpen] = useState(false);
 
   const scrollToSection = (sectionId: string) => {
@@ -28,7 +27,7 @@ const Header = () => {
           </div>
           <Image 
             src={logobgg} 
-            alt={t('header.brand')} 
+            alt={t('brand')} 
             width={150} 
             height={40} 
             priority
@@ -40,35 +39,36 @@ const Header = () => {
             onClick={() => scrollToSection("features")}
             className="text-muted-foreground hover:text-amber-700 transition-all duration-300 hover:scale-105"
           >
-            Features
+            {t('features')}
           </button>
           <button
             onClick={() => scrollToSection("web3")}
             className="text-muted-foreground hover:text-amber-700 transition-all duration-300 hover:scale-105"
           >
-            Web3
+            {t('web3')}
           </button>
           <button
             onClick={() => scrollToSection("trading")}
             className="text-muted-foreground hover:text-amber-700 transition-all duration-300 hover:scale-105"
           >
-            Trading
+            {t('trading')}
           </button>
           <button
             onClick={() => scrollToSection("about")}
             className="text-muted-foreground hover:text-amber-700 transition-all duration-300 hover:scale-105"
           >
-            About
+            {t('about')}
           </button>
         </nav>
 
         <div className="flex items-center space-x-4">
           <Button variant="ghost" className="hidden sm:inline-flex text-amber-50 hover:text-black hover:bg-amber-700 rounded-md hover:scale-105 transition-transform border-none">
-              Login
+            {t('login')}
           </Button>
           <Button className="hover:scale-105 hover:text-black">
-            Signup
+            {t('signup')}
           </Button>
+          <LanguageSwitcher />
         </div>
       </div>
     </header>

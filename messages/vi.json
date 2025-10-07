@@ -1,0 +1,133 @@
+{
+  "header": {
+    "brand": "CryptoTCB",
+    "features": "Tính năng",
+    "web3": "Web3",
+    "trading": "Giao dịch",
+    "about": "Về chúng tôi",
+    "login": "Đăng nhập",
+    "signup": "Đăng ký"
+  },
+  "footer": {
+    "description": "Nền tảng giao dịch cryptocurrency hàng đầu Việt Nam, cung cấp dịch vụ an toàn và đa dạng.",
+    "products": "Sản phẩm",
+    "spotTrading": "Giao dịch Spot",
+    "futuresTrading": "Giao dịch Futures",
+    "apiTrading": "API Trading",
+    "eWallet": "Ví điện tử",
+    "support": "Hỗ trợ",
+    "helpCenter": "Trung tâm trợ giúp",
+    "contact": "Liên hệ",
+    "reportBug": "Báo cáo lỗi",
+    "systemStatus": "Tình trạng hệ thống",
+    "company": "Công ty",
+    "aboutUs": "Về chúng tôi",
+    "careers": "Nghe nghiệp",
+    "news": "Tin tức",
+    "partners": "Đối tác",
+    "copyright": "© 2025 CryptoEx. Tất cả quyền được bảo lưu.",
+    "terms": "Điều khoản",
+    "privacy": "Bảo mật",
+    "cookies": "Cookie"
+  },
+  "hero": {
+    "badge": "Thông báo: Nền tảng giao dịch crypto hàng đầu thế giới",
+    "title": "Nền tảng giao dịch",
+    "titleHighlight": "Cryptocurrency",
+    "titleEnd": "hàng đầu",
+   "description": "Giao dịch, rút tiền và nạp tiền một cách an toàn với\ncông nghệ blockchain tiên tiến.\nNền tảng của chúng tôi hỗ trợ hơn 100+ loại cryptocurrency phổ biến.",
+    "startTrading": "Bắt đầu giao dịch",
+    "learnMore": "Tìm hiểu thêm"
+  },
+  "stats": {
+    "users": "Người dùng tin tưởng",
+    "uptime": "Thời gian hoạt động",
+    "volume": "Khối lượng giao dịch",
+    "support": "Hỗ trợ khách hàng"
+  },
+
+  "features": {
+    "title": "Tính năng vượt trội",
+    "description": "Trải nghiệm giao dịch cryptocurrency hoàn hảo với các tính năng tiên tiến nhất",
+    "features": [
+      {
+        "title": "Giao dịch tức thời",
+        "description": "Thực hiện giao dịch crypto với tốc độ ánh sáng. Hệ thống matching engine tiên tiến đảm bảo giao dịch được thực hiện trong vòng milliseconds."
+      },
+      {
+        "title": "Bảo mật tuyệt đối",
+        "description": "Quản lý rủi ro thông minh với công nghệ AI. Theo dõi danh mục đầu tư và nhận cảnh báo về các biến động thị trường quan trọng."
+      },
+      {
+        "title": "Chiến lược tùy chỉnh",
+        "description": "Xây dựng các chiến lược giao dịch tự động, tái cân bằng danh mục và tối ưu hóa lợi nhuận với các công cụ phân tích chuyên sâu."
+      }
+    ]
+  },
+  "web3": {
+    "title": "Tính năng",
+    "title-mid":"Web3",
+    "title-end":"tiên tiến",
+    "description": "Khám phá thế giới DeFi, NFT và các công nghệ blockchain mới nhất",
+    "features": [
+      {
+        "title": "DeFi Integration",
+        "description": "Kết nối với các giao thức DeFi hàng đầu như Uniswap, Compound, và Aave để tối đa hóa lợi nhuận."
+      },
+      {
+        "title": "Yield Farming",
+        "description": "Tham gia yield farming và liquidity mining để kiếm thêm thu nhập thụ động từ crypto holdings."
+      },
+      {
+        "title": "NFT Marketplace",
+        "description": "Mua bán NFT với trải nghiệm liền mạch, hỗ trợ đầy đủ các chuẩn ERC-721 và ERC-1155."
+      },
+      {
+        "title": "Cross-Chain Bridge",
+        "description": "Chuyển đổi tài sản giữa các blockchain khác nhau một cách liền mạch và nhanh chóng."
+      }
+    ],
+    "cta": "Khám phá Web3"
+  },
+
+  "trading": {
+    "title": "Giao diện giao dịch",
+    "titleHighlight": "chuyên nghiệp",
+    "titleEnd": "",
+    "description": "Nền tảng giao dịch được thiết kế cho cả người mới bắt đầu và trader chuyên nghiệp. Tích hợp đầy đủ các công cụ phân tích kỹ thuật và quản lý rủi ro.",
+    "features": [
+      "Giao dịch Spot & Futures",
+      "Rút tiền & Nạp tiền nhanh chóng",
+      "API Trading cho Developer"
+    ],
+    "cta": "Khám phá nền tảng",
+    "terminal": {
+      "header": "Bitgoget Trading Terminal",
+      "live": "LIVE",
+      "volume24h": "Khối lượng 24h",
+      "openOrders": "Số lệnh đang chờ",
+      "fee": "Phí giao dịch"
+    }
+  },
+
+  "about": {
+    "title": "Về",
+    "titleHighlight": "BitGoGet",
+    "titleEnd": "",
+    "description": "Chúng tôi là nền tảng giao dịch cryptocurrency hàng đầu Thế giới, cam kết mang đến trải nghiệm giao dịch an toàn, nhanh chóng và đáng tin cậy cho hơn 1 triệu người dùng trên thế giới.",
+    "features": [
+      {
+        "title": "Đáng tin cậy",
+        "description": "Được cấp phép và giám sát bởi các cơ quan tài chính"
+      },
+      {
+        "title": "Nhanh chóng",
+        "description": "Giao dịch được thực hiện trong vòng milliseconds"
+      },
+      {
+        "title": "Hỗ trợ 24/7",
+        "description": "Đội ngũ chăm sóc khách hàng chuyên nghiệp"
+      }
+    ]
+  }
+}

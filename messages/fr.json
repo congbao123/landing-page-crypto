@@ -1,0 +1,134 @@
+{
+  "header": {
+    "brand": "CryptoTCB",
+    "features": "Fonctionnalités",
+    "web3": "Web3",
+    "trading": "Trading",
+    "about": "À propos de nous",
+    "login": "Connexion",
+    "signup": "Inscrivez-vous maintenant"
+  },
+  "footer": {
+    "description": "Plateforme de trading de cryptomonnaies leader au Vietnam, offrant des services sécurisés et variés.",
+    "products": "Produits",
+    "spotTrading": "Trading Spot",
+    "futuresTrading": "Trading Futures",
+    "apiTrading": "Trading API",
+    "eWallet": "Portefeuille électronique",
+    "support": "Support",
+    "helpCenter": "Centre d'aide",
+    "contact": "Contact",
+    "reportBug": "Signaler un bug",
+    "systemStatus": "Statut du système",
+    "company": "Entreprise",
+    "aboutUs": "À propos de nous",
+    "careers": "Carrières",
+    "news": "Actualités",
+    "partners": "Partenaires",
+    "copyright": "© 2025 CryptoEx. Tous droits réservés.",
+    "terms": "Conditions",
+    "privacy": "Confidentialité",
+    "cookies": "Cookies"
+  },
+  "hero": {
+    "badge": "Avis : Plateforme de trading crypto leader mondial",
+    "title": "Plateforme de trading",
+    "titleHighlight": "Cryptomonnaie",
+    "titleEnd": "leader",
+    "description": "Effectuez des transactions, des retraits et des dépôts en toute sécurité avec une technologie blockchain avancée. Notre plateforme prend en charge plus de 100+ cryptomonnaies populaires.",
+    "startTrading": "Commencer le trading",
+    "learnMore": "En savoir plus"
+  },
+  "stats": {
+    "users": "Utilisateurs de confiance",
+    "uptime": "Temps d'activité",
+    "volume": "Volume de trading",
+    "support": "Support client"
+  },
+
+  "features": {
+    "title": "Fonctionnalités Exceptionnelles",
+    "description": "Vivez une expérience de trading de cryptomonnaies parfaite avec les fonctionnalités les plus avancées",
+    "features": [
+      {
+        "title": "Trading Instantané",
+        "description": "Effectuez des transactions de cryptomonnaies à la vitesse de l'éclair. Notre moteur de correspondance avancé garantit des transactions en millisecondes."
+      },
+      {
+        "title": "Sécurité Absolue",
+        "description": "Gestion intelligente des risques avec la technologie AI. Surveillez votre portefeuille et recevez des alertes sur les fluctuations importantes du marché."
+      },
+      {
+        "title": "Stratégies Personnalisées",
+        "description": "Créez des stratégies de trading automatisées, rééquilibrez votre portefeuille et optimisez vos profits avec des outils d'analyse approfondie."
+      }
+    ]
+  },
+
+  "web3": {
+   "title": "Fonctionnalités",
+    "title-mid": "Web3",
+    "title-end": "Avancées",
+    "description": "Explorez le monde de la DeFi, des NFT et des dernières technologies blockchain",
+    "features": [
+      {
+        "title": "Intégration DeFi",
+        "description": "Connectez-vous aux principaux protocoles DeFi comme Uniswap, Compound et Aave pour maximiser vos profits."
+      },
+      {
+        "title": "Yield Farming",
+        "description": "Participez au yield farming et au liquidity mining pour gagner des revenus passifs avec vos avoirs en cryptomonnaies."
+      },
+      {
+        "title": "Marché NFT",
+        "description": "Achetez et vendez des NFT avec une expérience fluide, prenant en charge les standards ERC-721 et ERC-1155."
+      },
+      {
+        "title": "Pont Inter-Chaînes",
+        "description": "Transférez vos actifs entre différentes blockchains de manière fluide et rapide."
+      }
+    ],
+    "cta": "Explorer Web3"
+  },
+  
+ "trading": {
+    "title": "Interface de Trading",
+    "titleHighlight": "Professionnelle",
+    "titleEnd": "",
+    "description": "Une plateforme de trading conçue pour les débutants et les traders professionnels. Intégrée avec des outils d'analyse technique et de gestion des risques.",
+    "features": [
+      "Trading Spot & Futures",
+      "Retraits et Dépôts Rapides",
+      "Trading API pour Développeurs"
+    ],
+    "cta": "Explorer la Plateforme",
+    "terminal": {
+      "header": "Terminal de Trading Bitgoget",
+      "live": "EN DIRECT",
+      "volume24h": "Volume 24h",
+      "openOrders": "Ordres Ouverts",
+      "fee": "Frais de Transaction"
+    }
+  },
+
+  "about": {
+    "title": "À propos de",
+    "titleHighlight": "BitGoGet",
+    "titleEnd": "",
+    "description": "Nous sommes la principale plateforme de trading de cryptomonnaies au monde, engagés à offrir une expérience de trading sécurisée, rapide et fiable à plus d'1 million d'utilisateurs dans le monde.",
+    "features": [
+      {
+        "title": "Fiable",
+        "description": "Licencié et régulé par les autorités financières"
+      },
+      {
+        "title": "Rapide",
+        "description": "Transactions exécutées en millisecondes"
+      },
+      {
+        "title": "Support 24/7",
+        "description": "Équipe de support client professionnelle"
+      }
+    ]
+  }
+}
