@@ -25,17 +25,16 @@
     "careers": "Carrières",
     "news": "Actualités",
     "partners": "Partenaires",
-    "copyright": "© 2025 CryptoEx. Tous droits réservés.",
+    "copyright": "© 2025 BitGoGet. Tous droits réservés.",
     "terms": "Conditions",
     "privacy": "Confidentialité",
     "cookies": "Cookies"
   },
   "hero": {
-    "badge": "Avis : Plateforme de trading crypto leader mondial",
-    "title": "Plateforme de trading",
-    "titleHighlight": "Cryptomonnaie",
-    "titleEnd": "leader",
-    "description": "Effectuez des transactions, des retraits et des dépôts en toute sécurité avec une technologie blockchain avancée. Notre plateforme prend en charge plus de 100+ cryptomonnaies populaires.",
+    "badge": " Plateforme de trading crypto leader mondial",
+    "title": "Trading de Crypto",
+    "titleEnd": "Intelligent",
+    "description": "Expérience de trading de cryptomonnaies rapide et sécurisée avec une technologie avancée.",
     "startTrading": "Commencer le trading",
     "learnMore": "En savoir plus"
   },
@@ -130,5 +129,25 @@
         "description": "Équipe de support client professionnelle"
       }
     ]
+  },
+  "Registration":{
+    "newUserMessage": "Nouveau ? Nous vous soutenons.",
+      "title": "Récompenses pour",
+      "highlightedTitle": "l'inscription",
+      "rewards": [
+        {
+          "title": "100 USDT en jetons",
+          "description": "Reçus immédiatement après l'inscription"
+        },
+        {
+          "title": "Billet de bonus de 400 USDT",
+          "description": "Pour votre première transaction"
+        },
+        {
+          "title": "Jusqu'à 10 500 USDT de points de connexion quotidienne",
+          "description": "Après avoir complété le KYC"
+        }
+      ],
+      "buttonText": "S'inscrire maintenant"
   }
 }

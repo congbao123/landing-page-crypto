@@ -25,17 +25,16 @@
     "careers": "职业",
     "news": "新闻",
     "partners": "合作伙伴",
-    "copyright": "© 2025 CryptoEx。保留所有权利。",
+    "copyright": "© 2025 BitGoGet。保留所有权利。",
     "terms": "条款",
     "privacy": "隐私",
     "cookies": "Cookie"
   },
   "hero": {
     "badge": "通知：全球领先的加密货币交易平台",
-    "title": "交易平台",
-    "titleHighlight": "加密货币",
-    "titleEnd": "领先",
-    "description": "通过先进的区块链技术安全地交易、提款和充值。我们的平台支持100多种流行加密货币。",
+    "title": "加密货币交易",
+    "titleEnd": "智能",
+    "description": "体验使用先进技术进行快速、安全的加密货币交易。",
     "startTrading": "开始交易",
     "learnMore": "了解更多"
   },
@@ -126,5 +125,26 @@
         "description": "专业的客户支持团队"
       }
     ]
+  },
+  "Registration":{
+      "newUserMessage": "你是新用户？我们将支持你。",
+      "title": "注册",
+      "highlightedTitle": "奖励",
+      "rewards": [
+        {
+          "title": "100 USDT 代币",
+          "description": "注册后立即领取"
+        },
+        {
+          "title": "400 USDT 奖励券",
+          "description": "用于首次交易"
+        },
+        {
+          "title": "每日签到最高可得 10,500 USDT 积分",
+          "description": "完成 KYC 后"
+        }
+      ],
+      "buttonText": "立即注册"
+    }
   }
-}
+

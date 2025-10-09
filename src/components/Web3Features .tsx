@@ -43,7 +43,7 @@ const Web3Features = () => {
       <div className="max-w-6xl mx-auto text-center">
         {/* Title */}
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          {t('title')} <span className="text-amber-700">{t('title-mid')}</span> {t('title-end')}
+          {t('title')} <span className="text-[#f7a600]">{t('title-mid')}</span> {t('title-end')}
         </h2>
         <p className="text-gray-400 max-w-2xl mx-auto mb-12">
           {t('description')}

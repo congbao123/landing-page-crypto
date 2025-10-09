@@ -41,11 +41,11 @@ export default function Features() {
             <div key={index} className="group hover:scale-105 transition-all duration-300 cursor-pointer">
               {/* Icon Container */}
               <div className="w-16 h-16 rounded-xl bg-neutral-900 flex items-center justify-center mb-6 group-hover:bg-neutral-800 transition-colors">
-                <feature.icon className="w-8 h-8 text-orange-500" strokeWidth={2} />
+                <feature.icon className="w-8 h-8 text-[#f7a600]" strokeWidth={2} />
               </div>
 
               {/* Title */}
-              <h3 className="text-xl font-bold mb-4 text-orange-500 group-hover:text-orange-400 transition-colors">
+              <h3 className="text-xl font-bold mb-4 text-[#f7a600] group-hover:text-orange-400 transition-colors">
                 {feature.title}
               </h3>
 

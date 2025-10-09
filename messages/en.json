@@ -25,17 +25,16 @@
     "careers": "Careers",
     "news": "News",
     "partners": "Partners",
-    "copyright": "© 2025 CryptoEx. All rights reserved.",
+    "copyright": "© 2025 BitGoGet. All rights reserved.",
     "terms": "Terms",
     "privacy": "Privacy",
     "cookies": "Cookies"
   },
   "hero": {
-    "badge": "Announcement: World's Leading Crypto Trading Platform",
-    "title": "Leading",
-    "titleHighlight": "Cryptocurrency",
-    "titleEnd": "Trading Platform",
-    "description": "Trade, withdraw, and deposit securely with advanced blockchain technology. Our platform supports over 100+ popular cryptocurrencies.",
+    "badge": " World's Leading Crypto Trading Platform",
+   "title": "Crypto Trading",
+   "titleEnd": "Smart",
+    "description": "Experience fast and secure cryptocurrency trading with advanced technology.",
     "startTrading": "Start Trading",
     "learnMore": "Learn More"
   },
@@ -129,5 +128,25 @@
         "description": "Professional customer support team"
       }
     ]
-  }
+  },
+  "Registration": {
+      "newUserMessage": "Are you new? We’ll support you.",
+      "title": "Rewards for",
+      "highlightedTitle": "Registration",
+      "rewards": [
+        {
+          "title": "100 USDT Tokens",
+          "description": "Receive immediately upon registration"
+        },
+        {
+          "title": "400 USDT Bonus Ticket",
+          "description": "For your first transaction"
+        },
+        {
+          "title": "Up to 10,500 USDT Daily Check-in Points",
+          "description": "After completing KYC"
+        }
+      ],
+      "buttonText": "Register Now"
+    }
 }

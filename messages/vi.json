@@ -25,17 +25,16 @@
     "careers": "Nghe nghiệp",
     "news": "Tin tức",
     "partners": "Đối tác",
-    "copyright": "© 2025 CryptoEx. Tất cả quyền được bảo lưu.",
+    "copyright": "© 2025 BitGoGet. Tất cả quyền được bảo lưu.",
     "terms": "Điều khoản",
     "privacy": "Bảo mật",
     "cookies": "Cookie"
   },
   "hero": {
-    "badge": "Thông báo: Nền tảng giao dịch crypto hàng đầu thế giới",
-    "title": "Nền tảng giao dịch",
-    "titleHighlight": "Cryptocurrency",
-    "titleEnd": "hàng đầu",
-   "description": "Giao dịch, rút tiền và nạp tiền một cách an toàn với\ncông nghệ blockchain tiên tiến.\nNền tảng của chúng tôi hỗ trợ hơn 100+ loại cryptocurrency phổ biến.",
+    "badge": " Nền tảng giao dịch crypto hàng đầu thế giới",
+    "title": "Giao dịch Crypto",
+    "titleEnd": "Thông minh",
+   "description": "Trải nghiệm giao dịch tiền điện tử nhanh chóng, an toàn với công nghệ tiên tiến",
     "startTrading": "Bắt đầu giao dịch",
     "learnMore": "Tìm hiểu thêm"
   },
@@ -117,17 +116,40 @@
     "description": "Chúng tôi là nền tảng giao dịch cryptocurrency hàng đầu Thế giới, cam kết mang đến trải nghiệm giao dịch an toàn, nhanh chóng và đáng tin cậy cho hơn 1 triệu người dùng trên thế giới.",
     "features": [
       {
+        "icon": "Diamond",
         "title": "Đáng tin cậy",
         "description": "Được cấp phép và giám sát bởi các cơ quan tài chính"
       },
       {
+        "icon": "Ticket", 
         "title": "Nhanh chóng",
         "description": "Giao dịch được thực hiện trong vòng milliseconds"
       },
       {
+        "icon": "Gift",
         "title": "Hỗ trợ 24/7",
         "description": "Đội ngũ chăm sóc khách hàng chuyên nghiệp"
       }
     ]
+  },
+  "Registration":{
+   "newUserMessage": "Bạn là người mới? Chúng tôi sẽ hỗ trợ bạn.",
+      "title": "Phần thưởng khi",
+      "highlightedTitle": "đăng ký",
+      "rewards": [
+        {
+          "title": "Mã thông báo 100 USDT",
+          "description": "Nhận ngay khi đăng ký"
+        },
+        {
+          "title": "Phiếu thưởng 400 USDT",
+          "description": "Cho giao dịch đầu tiên"
+        },
+        {
+          "title": "Điểm danh hằng nhận nhận lên đến 10500 USDT",
+          "description": "Sau khi hoàn thành KYC"
+        }
+      ],
+      "buttonText": "Đăng kí ngay"
   }
 }

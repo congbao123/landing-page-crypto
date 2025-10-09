@@ -38,7 +38,7 @@ body {
 
 /* Thanh cuộn */
 ::-webkit-scrollbar-thumb {
-  background-color: #f97316;  /* màu cam Tailwind (orange-500) */
+  background-color: #f7a600;  /* màu cam Tailwind (orange-500) */
   border-radius: 9999px;      /* bo tròn */
   border: 2px solid #0a0a0a;  /* viền cùng màu background để nổi */
 }

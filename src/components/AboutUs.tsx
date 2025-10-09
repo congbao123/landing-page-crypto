@@ -10,7 +10,7 @@ export default function AboutUs() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            {t('title')} <span className="text-amber-700">{t('titleHighlight')}</span> {t('titleEnd')}
+            {t('title')} <span className="text-[#f7a600]">{t('titleHighlight')}</span> {t('titleEnd')}
           </h2>
           <p className="text-gray-400 text-lg md:text-xl max-w-4xl mx-auto leading-relaxed">
             {t('description')}
