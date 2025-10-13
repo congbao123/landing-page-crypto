@@ -2,7 +2,6 @@
 
 import { useRouter, useParams } from 'next/navigation';
 import { useState, useTransition, useRef, useEffect } from 'react';
-import { useTranslations } from 'next-intl';
 import { Globe } from 'lucide-react';
 
 export default function LanguageSwitcher() {
