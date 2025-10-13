@@ -72,13 +72,13 @@ useEffect(() => {
               rel="noopener noreferrer"
               className="hover:scale-105 transition-all duration-300"
             >
-              <Image
-                src={ggplay}
-                alt="Google Play"
-                
-                style={{ width: "200px", height: "92px " }}
-                className="mr-2"
-              />
+             <Image
+  src={ggplay}
+  alt="Google Play"
+  width={200}
+  height={92}
+  className="mr-2 hover:scale-105 transition-all duration-300"
+/>
             </a>
           </div>
         </div>
