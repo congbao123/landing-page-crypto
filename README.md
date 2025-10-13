@@ -122,3 +122,5 @@ Tác giả
 
 
 Được phát triển bởi Trương Công Bảo.
+
+link hosting https://landing-page-crypto-one.vercel.app/vi 
