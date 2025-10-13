@@ -9,32 +9,32 @@ import { useTranslations } from "next-intl"
 export default function DownloadApp() {
   const downloadRef = useRef<HTMLDivElement>(null)
   const t = useTranslations("downloadApp")
-useEffect(() => {
-  const currentRef = downloadRef.current; // Lấy tham chiếu hiện tại
-  const observerOptions = {
-    threshold: 0.3,
-    rootMargin: "0px 0px -100px 0px",
-  };
+  useEffect(() => {
+    const currentRef = downloadRef.current; // Lấy tham chiếu hiện tại
+    const observerOptions = {
+      threshold: 0.3,
+      rootMargin: "0px 0px -100px 0px",
+    };
 
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("animate-slide-up");
-        entry.target.classList.remove("opacity-0", "translate-y-10");
-      }
-    });
-  }, observerOptions);
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("animate-slide-up");
+          entry.target.classList.remove("opacity-0", "translate-y-10");
+        }
+      });
+    }, observerOptions);
 
-  if (currentRef) {
-    observer.observe(currentRef);
-  }
-
-  return () => {
     if (currentRef) {
-      observer.unobserve(currentRef); // Dọn dẹp observer khi component unmount
+      observer.observe(currentRef);
     }
-  };
-}, []); 
+
+    return () => {
+      if (currentRef) {
+        observer.unobserve(currentRef); // Dọn dẹp observer khi component unmount
+      }
+    };
+  }, []);
 
   return (
     <div
@@ -72,13 +72,12 @@ useEffect(() => {
               rel="noopener noreferrer"
               className="hover:scale-105 transition-all duration-300"
             >
-             <Image
-  src={ggplay}
-  alt="Google Play"
-  width={200}
-  height={92}
-  className="mr-2 hover:scale-105 transition-all duration-300"
-/>
+              <Image
+                src={ggplay}
+                alt="Google Play"
+                style={{ width: "auto", height: "92px" }}
+                className="mr-2 hover:scale-105 transition-all duration-300"
+              />
             </a>
           </div>
         </div>

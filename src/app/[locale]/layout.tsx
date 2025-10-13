@@ -4,12 +4,13 @@ import "../../app/globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
+
 export default async function RootLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: string }>; // Đổi từ string[] thành string
+  params: Promise<{ locale: string }>; 
 }) {
   const { locale } = await params;
   
