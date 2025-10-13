@@ -75,7 +75,9 @@ export default function DownloadApp() {
               <Image
                 src={ggplay}
                 alt="Google Play"
-                style={{ width: "auto", height: "92px" }}
+                 width={150}
+          
+                style={{ width: "auto", height: "100px" }}
                 className="mr-2 hover:scale-105 transition-all duration-300"
               />
             </a>
