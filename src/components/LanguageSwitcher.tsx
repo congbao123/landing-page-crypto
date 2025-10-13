@@ -8,7 +8,6 @@ import { Globe } from 'lucide-react';
 export default function LanguageSwitcher() {
   const router = useRouter();
   const params = useParams();
-  const t = useTranslations('header'); 
   const [isPending, startTransition] = useTransition();
   
   

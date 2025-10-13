@@ -1,6 +1,5 @@
 "use client"
 import { useEffect, useRef } from "react"
-import { ArrowRight } from "lucide-react"
 import Image from "next/image"
 import ggplay from "../../public/Img/icon-ggplay.png"
 import appstore from "../../public/Img/iconios.png"
@@ -10,32 +9,32 @@ import { useTranslations } from "next-intl"
 export default function DownloadApp() {
   const downloadRef = useRef<HTMLDivElement>(null)
   const t = useTranslations("downloadApp")
+useEffect(() => {
+  const currentRef = downloadRef.current; // Lấy tham chiếu hiện tại
+  const observerOptions = {
+    threshold: 0.3,
+    rootMargin: "0px 0px -100px 0px",
+  };
 
-  useEffect(() => {
-    const observerOptions = {
-      threshold: 0.3,
-      rootMargin: "0px 0px -100px 0px",
-    }
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("animate-slide-up")
-          entry.target.classList.remove("opacity-0", "translate-y-10")
-        }
-      })
-    }, observerOptions)
-
-    if (downloadRef.current) {
-      observer.observe(downloadRef.current)
-    }
-
-    return () => {
-      if (downloadRef.current) {
-        observer.unobserve(downloadRef.current)
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("animate-slide-up");
+        entry.target.classList.remove("opacity-0", "translate-y-10");
       }
+    });
+  }, observerOptions);
+
+  if (currentRef) {
+    observer.observe(currentRef);
+  }
+
+  return () => {
+    if (currentRef) {
+      observer.unobserve(currentRef); // Dọn dẹp observer khi component unmount
     }
-  }, [])
+  };
+}, []); 
 
   return (
     <div

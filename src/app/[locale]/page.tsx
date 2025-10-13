@@ -6,10 +6,8 @@ import Web3Features from "../../components/Web3Features "
 import { ArrowRight } from "lucide-react"
 import TradingTerminal from "../../components/TradingTerminal"
 import { Button } from "../../components/Button"
-import AboutUs from "../../components/AboutUs"
 import { useTranslations } from "next-intl"
 import { useEffect, useRef } from "react"
-import { Content } from "next/font/google"
 import RegistrationRewards from "../../components/RegistrationRewards"
 import InvestorSlider from "../../components/InvestorSlider"
 import BitgogetSupport from "../../components/BitgogetSupport"
@@ -21,7 +19,7 @@ interface StatItem {
   label: string
 }
 
-export default function Home({ params }: { params: { locale: string } }) {
+export default function Home() {
   const t = useTranslations("hero")
   const b = useTranslations("stats")
   const statsData: StatItem[] = [

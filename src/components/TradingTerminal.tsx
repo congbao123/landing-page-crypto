@@ -35,34 +35,36 @@ export default function TradingTerminal() {
   const [btcData, setBtcData] = useState<CryptoData>({ symbol: 'BTC/USDT', price: '0.00', change: '0.00', volume24h: '0', openOrders: 0, fee: '0.1' });
   const [ethData, setEthData] = useState<CryptoData>({ symbol: 'ETH/USDT', price: '0.00', change: '0.00', volume24h: '0', openOrders: 0, fee: '0.1' });
 
-  useEffect(() => {
-    const btcWs = new WebSocket('wss://stream.binance.com:9443/ws/btcusdt@ticker');
-    const ethWs = new WebSocket('wss://stream.binance.com:9443/ws/ethusdt@ticker');
+ useEffect(() => {
+  const btcWs = new WebSocket('wss://stream.binance.com:9443/ws/btcusdt@ticker');
+  const ethWs = new WebSocket('wss://stream.binance.com:9443/ws/ethusdt@ticker');
 
-    btcWs.onmessage = (event) => {
-      const data = JSON.parse(event.data);
-      // console.log(data);
-      const formatbtc = {
-        ...btcData,
-        price: data.c, change: data.P, volume24h: data.q, openOrders: Math.floor(Math.random() * 2000) + 1000
-      }
-      setBtcData(formatbtc);
-    };
-    ethWs.onmessage = (event) => {
-      const data = JSON.parse(event.data);
-      const formateth = { ...ethData, 
-        price: data.c, change: data.P, volume24h: data.q, openOrders: Math.floor(Math.random() * 2000) + 1000 }
-        // console.log(formateth);
-      // setEthData((prev) => ({ ...prev, 
-      //   price: data.c, change: data.P, volume24h: data.q, openOrders: Math.floor(Math.random() * 2000) + 1000 }));
-      setEthData(formateth);
-    };
+  btcWs.onmessage = (event) => {
+    const data = JSON.parse(event.data);
+    setBtcData((prev) => ({
+      ...prev,
+      price: data.c,
+      change: data.P,
+      volume24h: data.q,
+      openOrders: Math.floor(Math.random() * 2000) + 1000
+    }));
+  };
+  ethWs.onmessage = (event) => {
+    const data = JSON.parse(event.data);
+    setEthData((prev) => ({
+      ...prev,
+      price: data.c,
+      change: data.P,
+      volume24h: data.q,
+      openOrders: Math.floor(Math.random() * 2000) + 1000
+    }));
+  };
 
-    return () => {
-      btcWs.close();
-      ethWs.close();
-    };
-  }, []);
+  return () => {
+    btcWs.close();
+    ethWs.close();
+  };
+}, []); // Chỉ chạy một lần khi component mount
 
   // Biến kiểm tra giá tăng hay giảm 
   const isBtcUp = Number(btcData.change) >= 0;

@@ -1,6 +1,5 @@
 import { Gift, Ticket, Diamond } from "lucide-react";
 import { Button } from "./Button";
-import { useTranslation } from "next-i18next";
 import { useTranslations } from "next-intl";
 
 export default function RegistrationRewards() {

@@ -12,13 +12,14 @@ export const metadata: Metadata = {
 
 export default async function RootLayout(
   {children, params }: { children: React.ReactNode; 
-  params: Promise<{ locale: string }> }) 
+  params: Promise<{ locale: string[] }> }) 
 {
-  const { locale } = await params;// Destructure locale từ params
+  const { locale } = await params; // Destructure locale từ params
+  const localeStr = Array.isArray(locale) ? locale[0] : locale;
   return (
-    <html lang={locale}>
+    <html lang={localeStr}>
       <body className={inter.className}>
-        <NextIntlClientProvider locale={locale}>
+        <NextIntlClientProvider locale={localeStr}>
           {children}
         </NextIntlClientProvider>
       </body>
