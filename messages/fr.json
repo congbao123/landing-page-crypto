@@ -9,7 +9,7 @@
     "signup": "Inscrivez-vous maintenant"
   },
   "footer": {
-    "description": "Plateforme de trading de cryptomonnaies leader au Vietnam, offrant des services sécurisés et variés.",
+    "description": "Plateforme de trading de cryptomonnaies leader au monde, offrant des services sécurisés et variés.",
     "products": "Produits",
     "spotTrading": "Trading Spot",
     "futuresTrading": "Trading Futures",
@@ -149,5 +149,23 @@
         }
       ],
       "buttonText": "S'inscrire maintenant"
+  },
+  "downloadApp": {
+    "title": "Téléchargez notre application",
+    "titlemid": "mobile",
+    "description": "Effectuez des transactions n'importe où, n'importe quand avec notre puissante application mobile. Disponible pour iOS et Android."
+  },
+  "bitgogetSupport": {
+   "title": "Bitgoget Toujours à Vos Côtés",
+    "communityTitle": "Rejoignez Notre Communauté",
+    "communityDesc": "Bitgoget compte plus de 40 millions d'utilisateurs provenant de plus de 200 pays et régions, prenant en charge plus de 4 langues.",
+    "startButton": "Commencer",
+    "supportTitle": "Assistance Client 24h/24 et 7j/7",
+    "supportDesc": "Vous ne savez pas comment trader ou êtes bloqué sur des graphiques ? Notre équipe de support est toujours là pour vous aider !"
+  },
+  "InvestorSlider":{
+    "titleBefore": "Les",
+    "titleHighlight": "Investisseurs Principaux",
+    "subtitle": "Soutenu par les plus grands noms de l'industrie de la blockchain et de la crypto-monnaie"
   }
 }

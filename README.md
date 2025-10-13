@@ -1,36 +1,124 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Bitgoget Landing Page
 
-## Getting Started
+Tổng quan
 
-First, run the development server:
+Bitgoget Landing Page là một trang web được xây dựng để giới thiệu nền tảng giao dịch tiền mã hóa (cryptocurrency). Trang này được thiết kế với giao diện hiện đại, sử dụng Next.js và React để cung cấp trải nghiệm người dùng mượt mà, hỗ trợ đa ngôn ngữ (i18n) và tích hợp các hiệu ứng chuyển động đẹp mắt.
 
-```bash
+Công nghệ sử dụng
+
+
+
+
+
+Framework: Next.js 
+
+Ngôn ngữ lập trình: TypeScript
+
+Quản lý đa ngôn ngữ: next-intl
+
+Giao diện: Tailwind CSS
+
+
+
+Hiệu ứng và tương tác: IntersectionObserver để tạo hiệu ứng cuộn (scroll animations)
+
+
+
+Dữ liệu thời gian thực: WebSocket để hiển thị dữ liệu giá tiền mã hóa (BTC/USDT, ETH/USDT) từ Binance
+
+
+
+Thư viện giao diện: Lucide-react (biểu tượng), next/font/google (font chữ)
+
+
+
+Hỗ trợ đa ngôn ngữ: Sử dụng next-intl để hỗ trợ các ngôn ngữ như tiếng Anh (en), tiếng Việt (vi), tiếng Pháp (fr), tiếng Trung (zh).
+
+
+
+Hiệu ứng cuộn: Sử dụng IntersectionObserver để kích hoạt hiệu ứng "slide-up" khi các phần tử xuất hiện trong khung nhìn.
+
+
+
+Dữ liệu thời gian thực: Tích hợp WebSocket để hiển thị giá và thông tin thị trường của BTC và ETH.
+
+
+
+Thiết kế đáp ứng: Giao diện thân thiện với cả thiết bị di động và máy tính để bàn.
+
+
+
+Hiệu ứng hình ảnh: Video nền trong Hero và RegistrationRewards, cùng với các hiệu ứng hover và chuyển đổi mượt mà.
+
+Cấu trúc mã nguồn
+
+
+
+
+
+Home.tsx: Thành phần chính, tập hợp tất cả các thành phần khác và quản lý hiệu ứng cuộn.
+
+
+
+RegistrationRewards.tsx: Hiển thị phần thưởng đăng ký với danh sách động và video minh họa.
+
+
+
+TradingTerminal.tsx: Tích hợp WebSocket để hiển thị dữ liệu giao dịch thời gian thực.
+
+
+
+Web3Features.tsx: Hiển thị các tính năng Web3 với các thẻ đặc trưng và nút CTA.
+
+
+
+DownloadApp.tsx: Phần tải ứng dụng với hình ảnh mockup và liên kết đến các cửa hàng ứng dụng.
+
+
+
+BitgogetSupport.tsx: Phần hỗ trợ với hai thẻ (cộng đồng và hỗ trợ khách hàng).
+
+
+
+LanguageSwitcher.tsx: Bộ chuyển đổi ngôn ngữ với dropdown và hỗ trợ chuyển đổi mượt mà.
+
+Cách chạy dự án
+
+
+
+
+
+Cài đặt phụ thuộc:
+
+npm install
+
+
+
+Cấu hình môi trường:
+
+
+Cấu hình next-intl với các tệp ngôn ngữ trong thư mục messages.
+
+
+
+Chạy dự án:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Truy cập: Mở trình duyệt tại http://localhost:3000.
 
-## Learn More
+Các lưu ý
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Đảm bảo kết nối internet để WebSocket trong TradingTerminal hoạt động.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Các tệp ngôn ngữ (JSON) cần được đặt trong thư mục messages để hỗ trợ đa ngôn ngữ.
 
-## Deploy on Vercel
+Một số thành phần như FeaturesNew và InvestorSlider chưa được cung cấp mã nguồn, cần bổ sung để hoàn thiện.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Tác giả
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+Được phát triển bởi Trương Công Bảo.

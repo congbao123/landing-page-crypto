@@ -35,12 +35,13 @@ const Header = () => {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         
         {/* Logo */}
-        <Link href="/" className="flex items-center space-x-2">
+        <Link href="/vi" className="flex items-center space-x-2">
           <Image 
             src={logobgg} 
             alt="Bitgoget Logo" 
             width={150} 
-            height={40} 
+            height={40}
+            style={{ width: "auto", height: "auto" }} 
             priority
           />
         </Link>

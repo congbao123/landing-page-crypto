@@ -9,7 +9,7 @@
     "signup": "Đăng ký"
   },
   "footer": {
-    "description": "Nền tảng giao dịch cryptocurrency hàng đầu Việt Nam, cung cấp dịch vụ an toàn và đa dạng.",
+    "description": "Nền tảng giao dịch cryptocurrency hàng đầu Thế giới, cung cấp dịch vụ an toàn và đa dạng.",
     "products": "Sản phẩm",
     "spotTrading": "Giao dịch Spot",
     "futuresTrading": "Giao dịch Futures",
@@ -151,5 +151,24 @@
         }
       ],
       "buttonText": "Đăng kí ngay"
+  },
+  "downloadApp": {
+    "title": "Tải xuống ứng dụng của chúng tôi",
+    "titlemid": "di động",
+    "description": "Giao dịch mọi lúc mọi nơi với ứng dụng di động mạnh mẽ của chúng tôi. Có sẵn cho iOS và Android."
+  },
+  "bitgogetSupport": {
+    "title": "Bitgoget Luôn Bên Bạn",
+    "communityTitle": "Tham gia cộng đồng của chúng tôi",
+    "communityDesc": "Bitgoget là nơi có hơn 40 triệu người dùng từ hơn 200+ quốc gia và khu vực, hỗ trợ hơn 4 ngôn ngữ.",
+    "startButton": "Bắt đầu",
+    "supportTitle": "Hỗ trợ khách hàng 24/7",
+    "supportDesc": "Bạn không biết cách giao dịch hoặc bị mắc kẹt với các biểu đồ? Đội ngũ hỗ trợ của chúng tôi luôn sẵn sàng giúp đỡ bạn!"
+  },
+  
+  "InvestorSlider":{
+    "titleBefore": "Các Nhà Đầu Tư",
+    "titleHighlight": "Hàng Đầu",
+    "subtitle": "Được hỗ trợ bởi những tên tuổi lớn nhất trong ngành công nghiệp blockchain và crypto"
   }
 }

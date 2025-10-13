@@ -9,7 +9,7 @@
     "signup": "立即注册"
   },
   "footer": {
-    "description": "越南领先的加密货币交易平台，提供安全和多样化的服务。",
+    "description": "全球领先的加密货币交易平台，提供安全、多样化的服务。",
     "products": "产品",
     "spotTrading": "现货交易",
     "futuresTrading": "期货交易",
@@ -145,6 +145,26 @@
         }
       ],
       "buttonText": "立即注册"
-    }
+    },
+    
+    "downloadApp": {
+    "title": "下载我们的应用程序",
+    "titlemid": "移动",
+    "description": "随时随地通过我们的强大移动应用程序进行交易。适用于 iOS 和 Android。"
+  },
+
+  "bitgogetSupport": {
+    "title": "Bitgoget 永远在您身边",
+    "communityTitle": "加入我们的社区",
+    "communityDesc": "Bitgoget 拥有来自 200 多个国家和地区的超过 4000 万用户，支持超过 4 种语言。",
+    "startButton": "开始",
+    "supportTitle": "24/7 客户支持",
+    "supportDesc": "您不知道如何交易或在图表上遇到困难？我们的支持团队随时为您提供帮助！"
+  },
+  "InvestorSlider":{
+    "titleBefore": "顶级",
+    "titleHighlight": "投资者",
+    "subtitle": "由区块链和加密行业中最知名的公司支持"
   }
+}
 

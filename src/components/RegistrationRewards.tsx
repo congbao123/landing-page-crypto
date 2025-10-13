@@ -21,7 +21,7 @@ export default function RegistrationRewards() {
   ];
 
   return (
-    <section id={'Rew'} className="  text-white flex items-center justify-center min-h-screen p-8 sm:p-16">
+    <section id={'Rew'} className="  text-white flex items-center justify-center h-[700px] p-8 sm:p-16">
       <div className="w-full max-w-6xl grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         
         {/* Left Column* text*/}
@@ -56,15 +56,15 @@ export default function RegistrationRewards() {
         </div>
         
         {/* Right Column: Video/Image Visual */}
-        <div className="hidden lg:block relative lg:w-[500px] lg:h-[350px] lg:justify-self-center rounded-2xl overflow-hidden">
+        <div className="hidden lg:block relative lg:w-[500px] lg:h-[350px]  lg:justify-self-center rounded-2xl overflow-hidden">
           <video 
             autoPlay 
             loop 
             muted 
             playsInline 
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full  object-cover"
           >
-            <source src="/video/coinruntime.mp4" type="video/mp4" />
+            <source src="/video/videocoinblack.mp4" type="video/mp4" />
             Trình duyệt của bạn không hỗ trợ thẻ video.
           </video>
         </div>

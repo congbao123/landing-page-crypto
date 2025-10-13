@@ -3,7 +3,6 @@ import { Inter } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import '../../app/globals.css';
 
-
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -11,13 +10,11 @@ export const metadata: Metadata = {
   description: 'Multilingual app',
 };
 
-export default function RootLayout({
-  children,
-  params: { locale }
-}: {
-  children: React.ReactNode;
-  params: { locale: string };
-}) {
+export default async function RootLayout(
+  {children, params }: { children: React.ReactNode; 
+  params: Promise<{ locale: string }> }) 
+{
+  const { locale } = await params;// Destructure locale từ params
   return (
     <html lang={locale}>
       <body className={inter.className}>

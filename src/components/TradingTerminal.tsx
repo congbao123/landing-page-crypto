@@ -41,12 +41,23 @@ export default function TradingTerminal() {
 
     btcWs.onmessage = (event) => {
       const data = JSON.parse(event.data);
-      setBtcData((prev) => ({ ...prev, price: data.c, change: data.P, volume24h: data.q, openOrders: Math.floor(Math.random() * 2000) + 1000 }));
+      // console.log(data);
+      const formatbtc = {
+        ...btcData,
+        price: data.c, change: data.P, volume24h: data.q, openOrders: Math.floor(Math.random() * 2000) + 1000
+      }
+      setBtcData(formatbtc);
     };
     ethWs.onmessage = (event) => {
       const data = JSON.parse(event.data);
-      setEthData((prev) => ({ ...prev, price: data.c, change: data.P, volume24h: data.q, openOrders: Math.floor(Math.random() * 2000) + 1000 }));
+      const formateth = { ...ethData, 
+        price: data.c, change: data.P, volume24h: data.q, openOrders: Math.floor(Math.random() * 2000) + 1000 }
+        // console.log(formateth);
+      // setEthData((prev) => ({ ...prev, 
+      //   price: data.c, change: data.P, volume24h: data.q, openOrders: Math.floor(Math.random() * 2000) + 1000 }));
+      setEthData(formateth);
     };
+
     return () => {
       btcWs.close();
       ethWs.close();
@@ -59,7 +70,7 @@ export default function TradingTerminal() {
 
   return (
     // THAY ĐỔI Ở ĐÂY: Xóa h-[700px] và thay bằng py-24 để tự co giãn
-    <div id="trading" className="mt-6 bg-[#0a0a0a] text-white py-24 px-8 lg:px-16">
+    <div id="trading" className="mt-6 bg-black text-white py-24 px-8 lg:px-16">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
         {/* Bên trái */}
         <div className="space-y-8">

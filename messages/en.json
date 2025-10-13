@@ -9,7 +9,7 @@
     "signup": "Sign Up"
   },
   "footer": {
-    "description": "Vietnam's leading cryptocurrency trading platform, providing safe and diverse services.",
+    "description": "World's leading cryptocurrency trading platform, providing safe and diverse services.",
     "products": "Products",
     "spotTrading": "Spot Trading",
     "futuresTrading": "Futures Trading",
@@ -148,5 +148,26 @@
         }
       ],
       "buttonText": "Register Now"
-    }
+    },
+
+    "downloadApp": {
+    "title": "Download our application",
+    "titlemid": "mobile",
+    "description": "Trade anytime, anywhere with our powerful mobile application. Available for iOS and Android."
+  },
+
+  "bitgogetSupport": {
+    "title": "Bitgoget Always With You",
+    "communityTitle": "Join Our Community",
+    "communityDesc": "Bitgoget is home to over 40 million users from more than 200 countries and regions, supporting over 4 languages.",
+    "startButton": "Get Started",
+    "supportTitle": "24/7 Customer Support",
+    "supportDesc": "Not sure how to trade or stuck with charts? Our support team is always here to help you!"
+  },
+
+   "InvestorSlider":{
+    "titleBefore": "Top",
+    "titleHighlight": "Investors",
+    "subtitle": "Backed by some of the biggest names in the blockchain and crypto industry"
+  }
 }

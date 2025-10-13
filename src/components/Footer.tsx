@@ -19,7 +19,8 @@ const Footer = () => {
               src={logobgg} 
               alt="CryptoTCB" 
               width={150} 
-              height={50} 
+              height={50}
+              style={{ width: "auto", height: "auto" }} 
               priority
             />
           </div>
