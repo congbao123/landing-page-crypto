@@ -53,7 +53,7 @@ export default function TestimonialsSection() {
                   <Star key={i} className="w-5 h-5 fill-[#f7a600] text-[#f7a600]" />
                 ))}
               </div>
-              <p className="text-zinc-300 mb-6 leading-relaxed italic">"{t(testimonial.contentKey)}"</p>
+              <p className="text-zinc-300 mb-6 leading-relaxed italic">&ldquo;{t(testimonial.contentKey)}&rdquo;</p>
               <div className="flex items-center gap-3">
                 <img 
                   src={testimonial.avatar} 

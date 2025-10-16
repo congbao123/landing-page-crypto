@@ -1,8 +1,9 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import mobileapp1 from "../../../public/Img/mobile-crypto1.jpg";
-import mobileapp2 from "../../../public/Img/mobile-crypto2.jpg";
+import Image from 'next/image'; // Import Image from next/image
+import mobileapp1 from '../../../public/Img/mobile-crypto1.jpg';
+import mobileapp2 from '../../../public/Img/mobile-crypto2.jpg';
 
 export const MobileAppSection = () => {
   const t = useTranslations('mobileApp');
@@ -25,7 +26,7 @@ export const MobileAppSection = () => {
               {t('badge')}
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 mt-3 sm:mt-4 leading-tight">
-              {t('heading_part1')}{" "}
+              {t('heading_part1')}{' '}
               <span className="text-[#f7a600]">{t('heading_highlight')}</span>
             </h2>
             <p className="text-gray-400 text-base sm:text-lg mb-6 sm:mb-8 leading-relaxed">
@@ -57,10 +58,13 @@ export const MobileAppSection = () => {
               <div className="w-36 sm:w-48 md:w-56 lg:w-64 transform -rotate-6 hover:rotate-0 transition-transform duration-300">
                 <div className="bg-black rounded-[2rem] sm:rounded-[3rem] p-2 sm:p-3 border-2 sm:border-4 border-gray-800 shadow-2xl">
                   <div className="bg-gray-900 rounded-[1.5rem] sm:rounded-[2.5rem] overflow-hidden">
-                    <img
-                      src={mobileapp1.src}
+                    <Image
+                      src={mobileapp1}
                       alt="Mobile App Screen 1"
+                      width={256} 
+                      height={512} 
                       className="w-full h-auto"
+                      placeholder="blur"
                     />
                   </div>
                 </div>
@@ -70,10 +74,13 @@ export const MobileAppSection = () => {
               <div className="w-36 sm:w-48 md:w-56 lg:w-64 transform rotate-6 hover:rotate-0 transition-transform duration-300 mt-8 sm:mt-12">
                 <div className="bg-black rounded-[2rem] sm:rounded-[3rem] p-2 sm:p-3 border-2 sm:border-4 border-gray-800 shadow-2xl">
                   <div className="bg-gray-900 rounded-[1.5rem] sm:rounded-[2.5rem] overflow-hidden">
-                    <img
-                      src={mobileapp2.src}
+                    <Image
+                      src={mobileapp2}
                       alt="Mobile App Screen 2"
+                      width={256} 
+                      height={512} 
                       className="w-full h-auto"
+                      placeholder="blur" 
                     />
                   </div>
                 </div>
