@@ -3,16 +3,14 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
-// Import logos
+
 import BinanceLogo from '../../../public/Img/Logos/270.png';
 import CoinbaseLogo from '../../../public/Img/Logos/coinbase.png';
 import bitgetlogo from '../../../public/Img/Logos/bitget.png';
-import BingXLogo from '../../../public/Img/logos/BingX.png';
-import KrakenLogo from '../../../public/Img/logos/kraken.png';
-import OKXLogo from '../../../public/Img/logos/okx.png';
-// import BitfinexLogo from 'public/logos/bitfinex.png';
-// import CoinMarketCapLogo from 'public/logos/coinmarketcap.png';
-// import GoogleCloudLogo from 'public/logos/google-cloud.png';
+import BingXLogo from '../../../public/Img/Logos/BingX.png';
+import KrakenLogo from '../../../public/Img/Logos/kraken.png';
+import OKXLogo from '../../../public/Img/Logos/okx.png'
+
 
 export const TrustedBySection = () => {
   const t = useTranslations('trusted');
@@ -24,9 +22,7 @@ export const TrustedBySection = () => {
     { name: 'Bingx', logo: BingXLogo, color: '#F6851B' },
     { name: 'Kraken', logo: KrakenLogo, color: '#5741D9' },
     { name: 'OKX', logo: OKXLogo, color: '#000000' },
-  //   { name: 'Bitfinex', logo: BitfinexLogo, color: '#16B157' },
-  //   { name: 'CoinMarketCap', logo: CoinMarketCapLogo, color: '#3861FB' },
-  //   { name: 'Google Cloud', logo: GoogleCloudLogo, color: '#4285F4' }
+
   ];
 
   // Duplicate for infinite scroll
