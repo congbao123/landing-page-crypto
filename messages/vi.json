@@ -1,43 +1,45 @@
 {
   "header": {
-    "brand": "CryptoTCB",
+    "brand": "Bitgoget",
+    "platform": "Nền tảng",
     "features": "Tính năng",
-    "web3": "Web3",
-    "trading": "Giao dịch",
+    "solutions": "Giải pháp",
+    "pricing": "Bảng giá",
     "about": "Về chúng tôi",
-    "login": "Đăng nhập",
-    "signup": "Đăng ký"
-  },
-  "footer": {
-    "description": "Nền tảng giao dịch cryptocurrency hàng đầu Thế giới, cung cấp dịch vụ an toàn và đa dạng.",
-    "products": "Sản phẩm",
-    "spotTrading": "Giao dịch Spot",
-    "futuresTrading": "Giao dịch Futures",
-    "apiTrading": "API Trading",
-    "eWallet": "Ví điện tử",
-    "support": "Hỗ trợ",
-    "helpCenter": "Trung tâm trợ giúp",
     "contact": "Liên hệ",
-    "reportBug": "Báo cáo lỗi",
-    "systemStatus": "Tình trạng hệ thống",
+    "getDemo": "Dùng thử Demo"
+  },
+  
+ "footer": {
+    "description": "Nền tảng White-label hàng đầu giúp bạn triển khai sàn giao dịch crypto nhanh chóng, an toàn và dễ dàng tùy chỉnh.",
+    "product": "Sản phẩm",
+    "whiteLabel": "White-label Exchange",
+    "features": "Tính năng",
+    "pricing": "Bảng giá",
     "company": "Công ty",
     "aboutUs": "Về chúng tôi",
-    "careers": "Nghe nghiệp",
-    "news": "Tin tức",
-    "partners": "Đối tác",
-    "copyright": "© 2025 BitGoGet. Tất cả quyền được bảo lưu.",
-    "terms": "Điều khoản",
-    "privacy": "Bảo mật",
-    "cookies": "Cookie"
+    "contact": "Liên hệ",
+    "blog": "Blog",
+    "getInTouch": "Liên hệ ngay",
+    "contactSales": "Liên hệ Sales",
+    "copyright": "© 2025 BitGoGet. Bảo lưu mọi quyền.",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản dịch vụ",
+    "legal": "Pháp lý"
   },
-  "hero": {
-    "badge": " Nền tảng giao dịch crypto hàng đầu thế giới",
-    "title": "Giao dịch Crypto",
-    "titleEnd": "Thông minh",
-   "description": "Trải nghiệm giao dịch tiền điện tử nhanh chóng, an toàn với công nghệ tiên tiến",
-    "startTrading": "Bắt đầu giao dịch",
-    "learnMore": "Tìm hiểu thêm"
+
+ "hero": {
+    "badge": "Giải pháp White-label Exchange",
+    "heading_part1": "Khởi tạo sàn giao dịch Crypto",
+    "heading_highlight": "thương hiệu riêng",
+    "heading_part2": "nhanh chóng",
+    "description": "BitGoGet cung cấp nền tảng White-label giúp doanh nghiệp và startup triển khai sàn giao dịch Crypto riêng — bảo mật, tốc độ và dễ dàng tùy chỉnh theo thương hiệu của bạn.",
+    "primary_cta": "Nhận Demo Miễn Phí",
+    "secondary_cta": "Liên hệ tư vấn",
+    "trust_indicator_1": "Triển khai nhanh chóng",
+    "trust_indicator_2": "Hỗ trợ kỹ thuật 24/7"
   },
+
   "stats": {
     "users": "Người dùng tin tưởng",
     "uptime": "Thời gian hoạt động",
@@ -45,24 +47,6 @@
     "support": "Hỗ trợ khách hàng"
   },
 
-  "features": {
-    "title": "Tính năng vượt trội",
-    "description": "Trải nghiệm giao dịch cryptocurrency hoàn hảo với các tính năng tiên tiến nhất",
-    "features": [
-      {
-        "title": "Giao dịch tức thời",
-        "description": "Thực hiện giao dịch crypto với tốc độ ánh sáng. Hệ thống matching engine tiên tiến đảm bảo giao dịch được thực hiện trong vòng milliseconds."
-      },
-      {
-        "title": "Bảo mật tuyệt đối",
-        "description": "Quản lý rủi ro thông minh với công nghệ AI. Theo dõi danh mục đầu tư và nhận cảnh báo về các biến động thị trường quan trọng."
-      },
-      {
-        "title": "Chiến lược tùy chỉnh",
-        "description": "Xây dựng các chiến lược giao dịch tự động, tái cân bằng danh mục và tối ưu hóa lợi nhuận với các công cụ phân tích chuyên sâu."
-      }
-    ]
-  },
   "web3": {
     "title": "Tính năng",
     "title-mid":"Web3",
@@ -170,5 +154,139 @@
     "titleBefore": "Các Nhà Đầu Tư",
     "titleHighlight": "Hàng Đầu",
     "subtitle": "Được hỗ trợ bởi những tên tuổi lớn nhất trong ngành công nghiệp blockchain và crypto"
+  },
+    "trusted": {
+    "heading_part1": "Được tin dùng bởi các",
+    "heading_highlight": "thương hiệu hàng đầu về crypto & fintech",
+    "description": "BitGoGet cung cấp giải pháp cho các sàn giao dịch và startup blockchain trên toàn thế giới."
+  },
+   "features": {
+    "badge": "Giải pháp nền tảng —",
+    "heading": "Nền tảng giao dịch tiền điện tử an toàn và đáng tin cậy hàng đầu",
+    "description1": "Cung cấp giải pháp toàn diện cho doanh nghiệp xây dựng và vận hành sàn giao dịch tiền điện tử chuyên nghiệp, tối ưu hiệu suất và bảo mật.",
+    "description2": "Mô hình SaaS giúp doanh nghiệp tiết kiệm chi phí phát triển và dễ dàng mở rộng quy mô toàn cầu.",
+    "cta": "Khám phá ngay",
+    "feature1_title": "Triển khai sàn trong vài ngày",
+    "feature1_desc": "Khởi tạo sàn giao dịch tiền điện tử chỉ trong 3–7 ngày với kiến trúc SaaS linh hoạt, tối ưu chi phí phát triển ban đầu.",
+    "feature2_title": "Bảo mật cấp doanh nghiệp",
+    "feature2_desc": "Áp dụng mã hóa dữ liệu, quản lý quyền truy cập đa lớp, xác thực 2FA và bảo mật ví nóng/lạnh theo chuẩn quốc tế.",
+    "feature3_title": "Quản trị toàn diện",
+    "feature3_desc": "Trang quản trị cho phép theo dõi người dùng, khối lượng giao dịch, lợi nhuận và cấu hình phí — tất cả trong một bảng điều khiển.",
+    "feature4_title": "Mở rộng & tích hợp dễ dàng",
+    "feature4_desc": "Tích hợp API mở, hỗ trợ nhiều blockchain và mô-đun mở rộng như KYC, staking, referral, giúp mở rộng hệ sinh thái dễ dàng."
+  },
+  "howItWorks": {
+    "badge": "QUY TRÌNH HOẠT ĐỘNG",
+    "heading_part1": "Cách Nền Tảng",
+    "heading_highlight": "Hoạt Động",
+    "description": "Hệ thống của chúng tôi kết nối giữa người dùng, API, blockchain và ví để tạo nên một sàn giao dịch hoàn chỉnh",
+    "step1_title": "Người Dùng",
+    "step1_desc": "Tương tác qua giao diện web/app đơn giản và trực quan",
+    "step1_details": "Đăng ký, đăng nhập và thực hiện giao dịch một cách dễ dàng",
+    "step2_title": "API Gateway",
+    "step2_desc": "Xử lý lệnh giao dịch và kết nối với blockchain",
+    "step2_details": "Bảo mật đa lớp và xử lý hàng nghìn giao dịch mỗi giây",
+    "step3_title": "Blockchain",
+    "step3_desc": "Xác minh và ghi nhận giao dịch một cách bảo mật",
+    "step3_details": "Công nghệ phi tập trung đảm bảo tính minh bạch tuyệt đối",
+    "step4_title": "Ví Điện Tử",
+    "step4_desc": "Lưu trữ và quản lý tài sản của người dùng",
+    "step4_details": "Bảo mật đa chữ ký và sao lưu tự động",
+    "bottom_text_part1": "Toàn bộ quy trình diễn ra trong",
+    "bottom_text_highlight": "vài giây",
+    "bottom_text_part2": "với độ bảo mật tối đa",
+    "cta": "Khám Phá Thêm"
+  },
+  "pricing": {
+    "heading": "Bảng giá linh hoạt cho mọi quy mô",
+    "subheading": "Tất cả gói đều bao gồm backend bảo mật, truy cập API và hỗ trợ kỹ thuật.",
+    "badge_popular": "Phổ Biến Nhất",
+    "plan1_name": "Sàn Giao Dịch Web Cơ Bản",
+    "plan1_target": "Startup / MVP",
+    "plan1_desc": "Hệ thống giao dịch, Ví điện tử, Bảng điều khiển Web, Biểu đồ & API cơ bản.",
+    "plan1_price": "Từ $8,000",
+    "plan1_cta": "Yêu Cầu Demo",
+    "plan2_name": "Nền Tảng Pro (Web + Mobile)",
+    "plan2_target": "Doanh Nghiệp Vừa",
+    "plan2_desc": "Bao gồm tất cả tính năng Cơ Bản + Ứng dụng iOS/Android, API nâng cao, KYC & ví đa chuỗi.",
+    "plan2_price": "Từ $18,000",
+    "plan2_cta": "Liên Hệ Sales",
+    "plan3_name": "Giải Pháp Tùy Chỉnh Doanh Nghiệp",
+    "plan3_target": "Tập Đoàn / Công Ty Đầu Tư",
+    "plan3_desc": "Hệ thống white-label hoàn chỉnh, node riêng, tùy chỉnh UI, hỗ trợ 24/7 chuyên biệt.",
+    "plan3_price": "Từ $35,000+",
+    "plan3_cta": "Tư Vấn Chuyên Gia",
+    "addons_heading": "Các Module Tùy Chọn",
+    "addons_subheading": "Nâng cấp sàn giao dịch của bạn với các tính năng bổ sung.",
+    "addon1_name": "Tích Hợp Biểu Đồ TradingView",
+    "addon1_price": "+$1,200",
+    "addon1_desc": "Tích hợp biểu đồ thời gian thực chuyên nghiệp.",
+    "addon2_name": "Ví Đa Chuỗi",
+    "addon2_price": "+$3,500",
+    "addon2_desc": "Hỗ trợ nhiều chuỗi (BTC, ETH, BSC, Solana).",
+    "addon3_name": "Giao Diện App Mobile",
+    "addon3_price": "+$5,000",
+    "addon3_desc": "Template ứng dụng React Native / Flutter sẵn sàng.",
+    "addon4_name": "Tích Hợp KYC/AML",
+    "addon4_price": "+$2,500",
+    "addon4_desc": "Xác minh danh tính tích hợp (SumSub, Onfido).",
+    "addon5_name": "Kiểm Toán Smart Contract",
+    "addon5_price": "Từ $4,000",
+    "addon5_desc": "Dịch vụ bảo mật & kiểm toán hợp đồng thông minh.",
+    "bottom_heading": "Cần giải pháp tùy chỉnh? Hãy cùng xây dựng sàn crypto của bạn.",
+    "bottom_cta": "Nhận Tư Vấn Miễn Phí"
+  },
+   "testimonials": {
+    "badge": "ĐÁNH GIÁ KHÁCH HÀNG",
+    "heading": "Khách Hàng Nói Gì Về Chúng Tôi",
+    "description": "Tham gia cùng hàng trăm doanh nghiệp thành công tin dùng nền tảng của chúng tôi",
+    "client1_name": "John Smith",
+    "client1_role": "CEO, CryptoStart Inc",
+    "client1_content": "Nền tảng giúp chúng tôi ra mắt sàn giao dịch chỉ trong 2 tuần. Giải pháp white-label cực kỳ linh hoạt và đội ngũ hỗ trợ xuất sắc.",
+    "client2_name": "Sarah Johnson",
+    "client2_role": "CTO, BlockTrade",
+    "client2_content": "Bảo mật và hiệu suất đỉnh cao. Chúng tôi đã xử lý hơn 100 triệu USD giao dịch mà không gặp vấn đề gì. Rất khuyến nghị cho doanh nghiệp nghiêm túc.",
+    "client3_name": "Michael Chen",
+    "client3_role": "Founder, AsiaExchange",
+    "client3_content": "Tùy chọn tùy chỉnh không giới hạn. Chúng tôi có thể khớp hoàn hảo với thương hiệu và tích hợp liền mạch với hệ thống hiện tại."
+  },
+   "mobileApp": {
+    "badge": "Giải pháp di động",
+    "heading_part1": "Mở rộng nền tảng giao dịch của bạn",
+    "heading_highlight": "trên di động",
+    "description": "Cung cấp trải nghiệm giao dịch hoàn chỉnh cho người dùng của bạn thông qua ứng dụng di động tích hợp sẵn. Hỗ trợ đầy đủ tính năng giao dịch, quản lý tài sản và thông báo real-time – được tùy chỉnh theo thương hiệu của doanh nghiệp bạn.",
+    "feature1": "Tùy chỉnh logo, màu sắc và thương hiệu riêng",
+    "feature2": "Giao diện native hiện đại, mượt mà",
+    "feature3": "Cập nhật giá & thông báo real-time",
+    "feature4": "Bảo mật sinh trắc học (Face ID, Touch ID)",
+    "feature5": "Tích hợp đồng bộ với nền tảng web exchange",
+    "cta": "Xem bản Demo Mobile"
+  },
+  "contact": {
+    "heading": "Liên hệ với chúng tôi",
+    "description": "Để lại thông tin và chúng tôi sẽ liên hệ tư vấn trong thời gian sớm nhất",
+    "label_name": "Họ và tên",
+    "placeholder_name": "Nguyễn Văn A",
+    "label_email": "Email",
+    "placeholder_email": "email@example.com",
+    "label_company": "Công ty",
+    "placeholder_company": "Tên công ty của bạn",
+    "label_message": "Nội dung yêu cầu",
+    "placeholder_message": "Mô tả chi tiết nhu cầu của bạn...",
+    "cta": "Gửi yêu cầu tư vấn",
+    "alternative": "Hoặc liên hệ qua Telegram:"
+  },
+  "faq": {
+    "heading": "Câu hỏi thường gặp",
+    "q1": "Nền tảng có thể tích hợp blockchain nào?",
+    "a1": "Nền tảng của chúng tôi hỗ trợ tích hợp đa dạng các blockchain phổ biến như Bitcoin, Ethereum, Binance Smart Chain, Polygon, và nhiều blockchain khác. Bạn có thể tùy chỉnh theo nhu cầu kinh doanh của mình.",
+    "q2": "Có hỗ trợ branding riêng không?",
+    "a2": "Có, chúng tôi cung cấp giải pháp white-label hoàn toàn. Bạn có thể tùy chỉnh logo, màu sắc, domain và toàn bộ giao diện theo thương hiệu của doanh nghiệp mình.",
+    "q3": "Bảo mật người dùng ra sao?",
+    "a3": "Chúng tôi áp dụng các tiêu chuẩn bảo mật cấp ngân hàng với xác thực 2FA, mã hóa dữ liệu end-to-end, cold wallet storage, và kiểm tra bảo mật định kỳ để đảm bảo an toàn tuyệt đối cho người dùng.",
+    "q4": "Tôi có thể tùy chỉnh giao diện không?",
+    "a4": "Hoàn toàn có thể! Nền tảng của chúng tôi được thiết kế linh hoạt, cho phép bạn tùy chỉnh giao diện, layout, và trải nghiệm người dùng theo ý muốn thông qua dashboard quản trị.",
+    "q5": "Chi phí triển khai như thế nào?",
+    "a5": "Chi phí triển khai phụ thuộc vào quy mô và tính năng bạn cần. Chúng tôi có các gói giải pháp linh hoạt phù hợp với mọi quy mô từ startup đến doanh nghiệp lớn. Liên hệ với chúng tôi để nhận báo giá chi tiết."
   }
 }

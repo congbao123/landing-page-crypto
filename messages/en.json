@@ -1,42 +1,42 @@
 {
   "header": {
-    "brand": "CryptoTCB",
+   "brand": "Bitgoget",
+    "platform": "Platform",
     "features": "Features",
-    "web3": "Web3",
-    "trading": "Trading",
+    "solutions": "Solutions",
+    "pricing": "Pricing",
     "about": "About Us",
-    "login": "Login",
-    "signup": "Sign Up"
+    "contact": "Contact",
+    "getDemo": "Get Demo"
   },
   "footer": {
-    "description": "World's leading cryptocurrency trading platform, providing safe and diverse services.",
-    "products": "Products",
-    "spotTrading": "Spot Trading",
-    "futuresTrading": "Futures Trading",
-    "apiTrading": "API Trading",
-    "eWallet": "E-Wallet",
-    "support": "Support",
-    "helpCenter": "Help Center",
-    "contact": "Contact",
-    "reportBug": "Report Bug",
-    "systemStatus": "System Status",
+    "description": "Leading White-label platform to help you deploy crypto exchange quickly, securely and easily customizable.",
+    "product": "Product",
+    "whiteLabel": "White-label Exchange",
+    "features": "Features",
+    "pricing": "Pricing",
     "company": "Company",
     "aboutUs": "About Us",
-    "careers": "Careers",
-    "news": "News",
-    "partners": "Partners",
+    "contact": "Contact",
+    "blog": "Blog",
+    "getInTouch": "Get in Touch",
+    "contactSales": "Contact Sales",
     "copyright": "© 2025 BitGoGet. All rights reserved.",
-    "terms": "Terms",
-    "privacy": "Privacy",
-    "cookies": "Cookies"
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "legal": "Legal"
   },
-  "hero": {
-    "badge": " World's Leading Crypto Trading Platform",
-   "title": "Crypto Trading",
-   "titleEnd": "Smart",
-    "description": "Experience fast and secure cryptocurrency trading with advanced technology.",
-    "startTrading": "Start Trading",
-    "learnMore": "Learn More"
+  
+    "hero": {
+    "badge": "White-label Exchange Solution",
+    "heading_part1": "Launch Your",
+    "heading_highlight": "Branded Crypto Exchange",
+    "heading_part2": "Instantly",
+    "description": "BitGoGet provides a White-label platform enabling businesses and startups to deploy their own crypto exchange — secure, fast, and easily customizable to your brand.",
+    "primary_cta": "Get Free Demo",
+    "secondary_cta": "Contact Sales",
+    "trust_indicator_1": "Quick Deployment",
+    "trust_indicator_2": "24/7 Technical Support"
   },
   "stats": {
     "users": "Trusted Users",
@@ -44,25 +44,7 @@
     "volume": "Trading Volume",
     "support": "Customer Support"
   },
-
-  "features": {
-    "title": "Outstanding Features",
-    "description": "Experience perfect cryptocurrency trading with the most advanced features",
-    "features": [
-      {
-        "title": "Instant Trading",
-        "description": "Execute crypto trades at lightning speed. Our advanced matching engine ensures transactions are completed within milliseconds."
-      },
-      {
-        "title": "Absolute Security",
-        "description": "Smart risk management with AI technology. Monitor your portfolio and receive alerts for significant market fluctuations."
-      },
-      {
-        "title": "Custom Strategies",
-        "description": "Build automated trading strategies, rebalance your portfolio, and optimize profits with in-depth analytical tools."
-      }
-    ]
-  },
+  
   "web3": {
     "title": "Advanced",
     "title-mid": "Web3",
@@ -169,5 +151,139 @@
     "titleBefore": "Top",
     "titleHighlight": "Investors",
     "subtitle": "Backed by some of the biggest names in the blockchain and crypto industry"
+  },
+  "trusted": {
+    "heading_part1": "Trusted by leading",
+    "heading_highlight": "crypto & fintech brands",
+    "description": "BitGoGet powers exchanges and blockchain startups around the world."
+  },
+  "features": {
+    "badge": "Platform Solutions —",
+    "heading": "Leading secure and trusted cryptocurrency trading platform",
+    "description1": "Providing comprehensive solutions for businesses to build and operate professional cryptocurrency exchanges, optimizing performance and security.",
+    "description2": "SaaS model helps businesses save development costs and easily scale globally.",
+    "cta": "Explore Now",
+    "feature1_title": "Launch in Days",
+    "feature1_desc": "Launch your crypto exchange in just 3-7 days with flexible SaaS architecture, minimizing initial development costs.",
+    "feature2_title": "Enterprise-Grade Security",
+    "feature2_desc": "Implementing data encryption, multi-layer access control, 2FA authentication, and hot/cold wallet security according to international standards.",
+    "feature3_title": "Comprehensive Management",
+    "feature3_desc": "Admin dashboard allows tracking users, trading volume, profits and fee configuration — all in one control panel.",
+    "feature4_title": "Easy Scaling & Integration",
+    "feature4_desc": "Open API integration, multi-blockchain support, and expansion modules like KYC, staking, referral for easy ecosystem growth."
+  },
+  "howItWorks": {
+    "badge": "HOW IT WORKS",
+    "heading_part1": "How The Platform",
+    "heading_highlight": "Works",
+    "description": "Our system connects users, APIs, blockchain and wallets to create a complete trading platform",
+    "step1_title": "User",
+    "step1_desc": "Interact through simple and intuitive web/app interface",
+    "step1_details": "Sign up, log in and trade easily",
+    "step2_title": "API Gateway",
+    "step2_desc": "Process trading orders and connect to blockchain",
+    "step2_details": "Multi-layer security and processing thousands of transactions per second",
+    "step3_title": "Blockchain",
+    "step3_desc": "Verify and record transactions securely",
+    "step3_details": "Decentralized technology ensures absolute transparency",
+    "step4_title": "Digital Wallet",
+    "step4_desc": "Store and manage user assets",
+    "step4_details": "Multi-signature security and automatic backup",
+    "bottom_text_part1": "The entire process takes place in",
+    "bottom_text_highlight": "seconds",
+    "bottom_text_part2": "with maximum security",
+    "cta": "Explore More"
+  },
+  "pricing": {
+    "heading": "Flexible pricing for every scale",
+    "subheading": "All packages include secure backend, API access and technical support.",
+    "badge_popular": "Most Popular",
+    "plan1_name": "Basic Web Exchange",
+    "plan1_target": "Startup / MVP",
+    "plan1_desc": "Trading system, Digital wallet, Web dashboard, Basic charts & API.",
+    "plan1_price": "From $8,000",
+    "plan1_cta": "Request Demo",
+    "plan2_name": "Pro Platform (Web + Mobile)",
+    "plan2_target": "Medium Business",
+    "plan2_desc": "All Basic features + iOS/Android apps, Advanced API, KYC & multi-chain wallet.",
+    "plan2_price": "From $18,000",
+    "plan2_cta": "Contact Sales",
+    "plan3_name": "Custom Enterprise Solution",
+    "plan3_target": "Corporation / Investment Firm",
+    "plan3_desc": "Complete white-label system, dedicated nodes, custom UI, 24/7 dedicated support.",
+    "plan3_price": "From $35,000+",
+    "plan3_cta": "Expert Consultation",
+    "addons_heading": "Optional Modules",
+    "addons_subheading": "Upgrade your exchange with additional features.",
+    "addon1_name": "TradingView Integration",
+    "addon1_price": "+$1,200",
+    "addon1_desc": "Professional real-time chart integration.",
+    "addon2_name": "Multi-Chain Wallet",
+    "addon2_price": "+$3,500",
+    "addon2_desc": "Support multiple chains (BTC, ETH, BSC, Solana).",
+    "addon3_name": "Mobile App Interface",
+    "addon3_price": "+$5,000",
+    "addon3_desc": "Ready-made React Native / Flutter app template.",
+    "addon4_name": "KYC/AML Integration",
+    "addon4_price": "+$2,500",
+    "addon4_desc": "Integrated identity verification (SumSub, Onfido).",
+    "addon5_name": "Smart Contract Audit",
+    "addon5_price": "From $4,000",
+    "addon5_desc": "Security & smart contract auditing service.",
+    "bottom_heading": "Need a custom solution? Let's build your crypto exchange together.",
+    "bottom_cta": "Get Free Consultation"
+  },
+   "testimonials": {
+    "badge": "TESTIMONIALS",
+    "heading": "What Our Clients Say",
+    "description": "Join hundreds of successful businesses who trust our platform",
+    "client1_name": "John Smith",
+    "client1_role": "CEO, CryptoStart Inc",
+    "client1_content": "The platform helped us launch our exchange in just 2 weeks. The white-label solution is incredibly flexible and the support team is outstanding.",
+    "client2_name": "Sarah Johnson",
+    "client2_role": "CTO, BlockTrade",
+    "client2_content": "Security and performance are top-notch. We've processed over $100M in transactions without a single issue. Highly recommended for serious businesses.",
+    "client3_name": "Michael Chen",
+    "client3_role": "Founder, AsiaExchange",
+    "client3_content": "The customization options are endless. We were able to match our brand perfectly and integrate with our existing systems seamlessly."
+  },
+  "mobileApp": {
+    "badge": "Mobile Solution",
+    "heading_part1": "Expand Your Trading Platform",
+    "heading_highlight": "on Mobile",
+    "description": "Deliver a complete trading experience to your users through a pre-built mobile app. Fully supports trading features, asset management, and real-time notifications – customized to your business's brand.",
+    "feature1": "Customize logo, colors, and branding",
+    "feature2": "Modern, smooth native interface",
+    "feature3": "Real-time price updates & notifications",
+    "feature4": "Biometric security (Face ID, Touch ID)",
+    "feature5": "Seamless integration with web exchange platform",
+    "cta": "View Mobile Demo"
+  },
+  "contact": {
+    "heading": "Contact Us",
+    "description": "Leave your information, and we will reach out for a consultation as soon as possible.",
+    "label_name": "Full Name",
+    "placeholder_name": "John Doe",
+    "label_email": "Email",
+    "placeholder_email": "email@example.com",
+    "label_company": "Company",
+    "placeholder_company": "Your company name",
+    "label_message": "Message",
+    "placeholder_message": "Describe your needs in detail...",
+    "cta": "Send Consultation Request",
+    "alternative": "Or contact us via Telegram:"
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "q1": "Which blockchains can the platform integrate with?",
+    "a1": "Our platform supports integration with various popular blockchains such as Bitcoin, Ethereum, Binance Smart Chain, Polygon, and many others. You can customize it based on your business needs.",
+    "q2": "Does it support custom branding?",
+    "a2": "Yes, we provide a fully white-label solution. You can customize the logo, colors, domain, and the entire interface to match your business’s brand.",
+    "q3": "How is user security ensured?",
+    "a3": "We implement bank-grade security standards with 2FA authentication, end-to-end data encryption, cold wallet storage, and regular security audits to ensure absolute user safety.",
+    "q4": "Can I customize the interface?",
+    "a4": "Absolutely! Our platform is designed to be flexible, allowing you to customize the interface, layout, and user experience as desired through the admin dashboard.",
+    "q5": "What are the deployment costs?",
+    "a5": "Deployment costs depend on the scale and features you need. We offer flexible solution packages suitable for businesses of all sizes, from startups to large enterprises. Contact us for a detailed quote."
   }
 }

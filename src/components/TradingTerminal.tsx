@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Button } from './Button';
 
-// Helper functions (Không thay đổi)
+// Helper functions 
 function formatPrice(num: number) {
   if (num >= 1000) return num.toLocaleString('en-US', { maximumFractionDigits: 2 });
   if (num >= 1) return num.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });

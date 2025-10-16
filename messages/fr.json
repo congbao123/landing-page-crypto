@@ -1,43 +1,44 @@
 {
   "header": {
-    "brand": "CryptoTCB",
+    "brand": "Bitgoget",
+    "platform": "Plateforme",
     "features": "Fonctionnalités",
-    "web3": "Web3",
-    "trading": "Trading",
-    "about": "À propos de nous",
-    "login": "Connexion",
-    "signup": "Inscrivez-vous maintenant"
+    "solutions": "Solutions",
+    "pricing": "Tarification",
+    "about": "À propos",
+    "contact": "Contact",
+    "getDemo": "Obtenir une démo"
   },
   "footer": {
-    "description": "Plateforme de trading de cryptomonnaies leader au monde, offrant des services sécurisés et variés.",
-    "products": "Produits",
-    "spotTrading": "Trading Spot",
-    "futuresTrading": "Trading Futures",
-    "apiTrading": "Trading API",
-    "eWallet": "Portefeuille électronique",
-    "support": "Support",
-    "helpCenter": "Centre d'aide",
-    "contact": "Contact",
-    "reportBug": "Signaler un bug",
-    "systemStatus": "Statut du système",
+    "description": "Plateforme White-label leader pour déployer votre exchange crypto rapidement, en toute sécurité et facilement personnalisable.",
+    "product": "Produit",
+    "whiteLabel": "Exchange White-label",
+    "features": "Fonctionnalités",
+    "pricing": "Tarification",
     "company": "Entreprise",
-    "aboutUs": "À propos de nous",
-    "careers": "Carrières",
-    "news": "Actualités",
-    "partners": "Partenaires",
+    "aboutUs": "À propos",
+    "contact": "Contact",
+    "blog": "Blog",
+    "getInTouch": "Contactez-nous",
+    "contactSales": "Contacter les ventes",
     "copyright": "© 2025 BitGoGet. Tous droits réservés.",
-    "terms": "Conditions",
-    "privacy": "Confidentialité",
-    "cookies": "Cookies"
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "legal": "Mentions légales"
   },
+  
   "hero": {
-    "badge": " Plateforme de trading crypto leader mondial",
-    "title": "Trading de Crypto",
-    "titleEnd": "Intelligent",
-    "description": "Expérience de trading de cryptomonnaies rapide et sécurisée avec une technologie avancée.",
-    "startTrading": "Commencer le trading",
-    "learnMore": "En savoir plus"
+    "badge": "Solution d'échange White-label",
+    "heading_part1": "Lancez votre",
+    "heading_highlight": "Plateforme Crypto personnalisée",
+    "heading_part2": "rapidement",
+    "description": "BitGoGet fournit une plateforme White-label permettant aux entreprises et startups de déployer leur propre plateforme d'échange crypto — sécurisée, rapide et facilement personnalisable à votre marque.",
+    "primary_cta": "Obtenir une démo gratuite",
+    "secondary_cta": "Contactez-nous",
+    "trust_indicator_1": "Déploiement rapide",
+    "trust_indicator_2": "Support technique 24/7"
   },
+    
   "stats": {
     "users": "Utilisateurs de confiance",
     "uptime": "Temps d'activité",
@@ -45,24 +46,7 @@
     "support": "Support client"
   },
 
-  "features": {
-    "title": "Fonctionnalités Exceptionnelles",
-    "description": "Vivez une expérience de trading de cryptomonnaies parfaite avec les fonctionnalités les plus avancées",
-    "features": [
-      {
-        "title": "Trading Instantané",
-        "description": "Effectuez des transactions de cryptomonnaies à la vitesse de l'éclair. Notre moteur de correspondance avancé garantit des transactions en millisecondes."
-      },
-      {
-        "title": "Sécurité Absolue",
-        "description": "Gestion intelligente des risques avec la technologie AI. Surveillez votre portefeuille et recevez des alertes sur les fluctuations importantes du marché."
-      },
-      {
-        "title": "Stratégies Personnalisées",
-        "description": "Créez des stratégies de trading automatisées, rééquilibrez votre portefeuille et optimisez vos profits avec des outils d'analyse approfondie."
-      }
-    ]
-  },
+  
 
   "web3": {
    "title": "Fonctionnalités",
@@ -167,5 +151,140 @@
     "titleBefore": "Les",
     "titleHighlight": "Investisseurs Principaux",
     "subtitle": "Soutenu par les plus grands noms de l'industrie de la blockchain et de la crypto-monnaie"
+  },
+  "trusted": {
+    "heading_part1": "Approuvé par les principales",
+    "heading_highlight": "marques crypto & fintech",
+    "description": "BitGoGet alimente les plateformes d'échange et les startups blockchain dans le monde entier."
+  },
+  "features": {
+    "badge": "Solutions de plateforme —",
+    "heading": "Plateforme de trading de cryptomonnaies sécurisée et de confiance",
+    "description1": "Fournir des solutions complètes aux entreprises pour créer et exploiter des plateformes d'échange de cryptomonnaies professionnelles, optimisant les performances et la sécurité.",
+    "description2": "Le modèle SaaS aide les entreprises à réduire les coûts de développement et à se développer facilement à l'échelle mondiale.",
+    "cta": "Découvrir maintenant",
+    "feature1_title": "Lancement en quelques jours",
+    "feature1_desc": "Lancez votre plateforme d'échange crypto en 3 à 7 jours avec une architecture SaaS flexible, minimisant les coûts de développement initiaux.",
+    "feature2_title": "Sécurité de niveau entreprise",
+    "feature2_desc": "Mise en œuvre du chiffrement des données, contrôle d'accès multicouche, authentification 2FA et sécurité des portefeuilles chauds/froids selon les normes internationales.",
+    "feature3_title": "Gestion complète",
+    "feature3_desc": "Le tableau de bord d'administration permet de suivre les utilisateurs, le volume de trading, les profits et la configuration des frais — tout dans un seul panneau de contrôle.",
+    "feature4_title": "Évolutivité et intégration faciles",
+    "feature4_desc": "Intégration API ouverte, support multi-blockchain et modules d'extension comme KYC, staking, parrainage pour une croissance facile de l'écosystème."
+  },
+  "howItWorks": {
+    "badge": "COMMENT ÇA MARCHE",
+    "heading_part1": "Comment La Plateforme",
+    "heading_highlight": "Fonctionne",
+    "description": "Notre système connecte les utilisateurs, les API, la blockchain et les portefeuilles pour créer une plateforme de trading complète",
+    "step1_title": "Utilisateur",
+    "step1_desc": "Interagir via une interface web/app simple et intuitive",
+    "step1_details": "Inscrivez-vous, connectez-vous et tradez facilement",
+    "step2_title": "API Gateway",
+    "step2_desc": "Traiter les ordres de trading et se connecter à la blockchain",
+    "step2_details": "Sécurité multicouche et traitement de milliers de transactions par seconde",
+    "step3_title": "Blockchain",
+    "step3_desc": "Vérifier et enregistrer les transactions en toute sécurité",
+    "step3_details": "La technologie décentralisée garantit une transparence absolue",
+    "step4_title": "Portefeuille Numérique",
+    "step4_desc": "Stocker et gérer les actifs des utilisateurs",
+    "step4_details": "Sécurité multi-signature et sauvegarde automatique",
+    "bottom_text_part1": "L'ensemble du processus se déroule en",
+    "bottom_text_highlight": "quelques secondes",
+    "bottom_text_part2": "avec une sécurité maximale",
+    "cta": "En Savoir Plus"
+  },
+  "pricing": {
+    "heading": "Tarification flexible pour toutes les échelles",
+    "subheading": "Tous les forfaits incluent un backend sécurisé, un accès API et un support technique.",
+    "badge_popular": "Le Plus Populaire",
+    "plan1_name": "Plateforme Web Basique",
+    "plan1_target": "Startup / MVP",
+    "plan1_desc": "Système de trading, Portefeuille numérique, Tableau de bord Web, Graphiques et API de base.",
+    "plan1_price": "À partir de $8,000",
+    "plan1_cta": "Demander une démo",
+    "plan2_name": "Plateforme Pro (Web + Mobile)",
+    "plan2_target": "Entreprise Moyenne",
+    "plan2_desc": "Toutes les fonctionnalités de base + Applications iOS/Android, API avancée, KYC et portefeuille multi-chaînes.",
+    "plan2_price": "À partir de $18,000",
+    "plan2_cta": "Contacter les ventes",
+    "plan3_name": "Solution Entreprise Personnalisée",
+    "plan3_target": "Corporation / Société d'Investissement",
+    "plan3_desc": "Système white-label complet, nœuds dédiés, UI personnalisée, support dédié 24/7.",
+    "plan3_price": "À partir de $35,000+",
+    "plan3_cta": "Consultation d'Expert",
+    "addons_heading": "Modules Optionnels",
+    "addons_subheading": "Améliorez votre plateforme avec des fonctionnalités supplémentaires.",
+    "addon1_name": "Intégration TradingView",
+    "addon1_price": "+$1,200",
+    "addon1_desc": "Intégration de graphiques professionnels en temps réel.",
+    "addon2_name": "Portefeuille Multi-Chaînes",
+    "addon2_price": "+$3,500",
+    "addon2_desc": "Support de plusieurs chaînes (BTC, ETH, BSC, Solana).",
+    "addon3_name": "Interface Application Mobile",
+    "addon3_price": "+$5,000",
+    "addon3_desc": "Modèle d'application React Native / Flutter prêt à l'emploi.",
+    "addon4_name": "Intégration KYC/AML",
+    "addon4_price": "+$2,500",
+    "addon4_desc": "Vérification d'identité intégrée (SumSub, Onfido).",
+    "addon5_name": "Audit de Contrat Intelligent",
+    "addon5_price": "À partir de $4,000",
+    "addon5_desc": "Service de sécurité et d'audit de contrats intelligents.",
+    "bottom_heading": "Besoin d'une solution personnalisée ? Construisons ensemble votre plateforme crypto.",
+    "bottom_cta": "Obtenir une Consultation Gratuite"
+  },
+   "testimonials": {
+    "badge": "TÉMOIGNAGES",
+    "heading": "Ce Que Disent Nos Clients",
+    "description": "Rejoignez des centaines d'entreprises prospères qui font confiance à notre plateforme",
+    "client1_name": "John Smith",
+    "client1_role": "PDG, CryptoStart Inc",
+    "client1_content": "La plateforme nous a aidés à lancer notre plateforme d'échange en seulement 2 semaines. La solution white-label est incroyablement flexible et l'équipe de support est exceptionnelle.",
+    "client2_name": "Sarah Johnson",
+    "client2_role": "CTO, BlockTrade",
+    "client2_content": "La sécurité et les performances sont de premier ordre. Nous avons traité plus de 100 millions de dollars de transactions sans aucun problème. Hautement recommandé pour les entreprises sérieuses.",
+    "client3_name": "Michael Chen",
+    "client3_role": "Fondateur, AsiaExchange",
+    "client3_content": "Les options de personnalisation sont infinies. Nous avons pu correspondre parfaitement à notre marque et intégrer nos systèmes existants de manière transparente."
+  },
+  
+  "mobileApp": {
+    "badge": "Solution mobile",
+    "heading_part1": "Élargissez votre plateforme de trading",
+    "heading_highlight": "sur mobile",
+    "description": "Offrez une expérience de trading complète à vos utilisateurs grâce à une application mobile prête à l’emploi. Prend en charge toutes les fonctionnalités de trading, la gestion d’actifs et les notifications en temps réel – personnalisées selon la marque de votre entreprise.",
+    "feature1": "Personnalisation du logo, des couleurs et de la marque",
+    "feature2": "Interface native moderne et fluide",
+    "feature3": "Mises à jour des prix et notifications en temps réel",
+    "feature4": "Sécurité biométrique (Face ID, Touch ID)",
+    "feature5": "Intégration transparente avec la plateforme d’échange web",
+    "cta": "Voir la démo mobile"
+  },
+  "contact": {
+    "heading": "Contactez-nous",
+    "description": "Laissez vos informations et nous vous contacterons pour une consultation dans les plus brefs délais.",
+    "label_name": "Nom complet",
+    "placeholder_name": "Jean Dupont",
+    "label_email": "Email",
+    "placeholder_email": "email@example.com",
+    "label_company": "Entreprise",
+    "placeholder_company": "Nom de votre entreprise",
+    "label_message": "Message",
+    "placeholder_message": "Décrivez vos besoins en détail...",
+    "cta": "Envoyer une demande de consultation",
+    "alternative": "Ou contactez-nous via Telegram :"
+  },
+  "faq": {
+    "heading": "Questions fréquemment posées",
+    "q1": "Quelles blockchains la plateforme peut-elle intégrer ?",
+    "a1": "Notre plateforme prend en charge l’intégration de diverses blockchains populaires telles que Bitcoin, Ethereum, Binance Smart Chain, Polygon, et bien d’autres. Vous pouvez la personnaliser selon les besoins de votre entreprise.",
+    "q2": "La personnalisation de la marque est-elle prise en charge ?",
+    "a2": "Oui, nous proposons une solution entièrement en marque blanche. Vous pouvez personnaliser le logo, les couleurs, le domaine et l’ensemble de l’interface pour correspondre à la marque de votre entreprise.",
+    "q3": "Comment la sécurité des utilisateurs est-elle assurée ?",
+    "a3": "Nous appliquons des normes de sécurité de niveau bancaire avec une authentification 2FA, un chiffrement des données de bout en bout, un stockage en portefeuille froid et des audits de sécurité réguliers pour garantir une sécurité absolue des utilisateurs.",
+    "q4": "Puis-je personnaliser l’interface ?",
+    "a4": "Absolument ! Notre plateforme est conçue pour être flexible, vous permettant de personnaliser l’interface, la disposition et l’expérience utilisateur comme vous le souhaitez via le tableau de bord d’administration.",
+    "q5": "Quels sont les coûts de déploiement ?",
+    "a5": "Les coûts de déploiement dépendent de l’échelle et des fonctionnalités dont vous avez besoin. Nous proposons des forfaits de solutions flexibles adaptés à toutes les tailles d’entreprises, des startups aux grandes entreprises. Contactez-nous pour un devis détaillé."
   }
 }

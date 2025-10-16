@@ -1,42 +1,42 @@
 {
   "header": {
-    "brand": "CryptoTCB",
+     "brand": "Bitgoget",
+    "platform": "平台",
     "features": "功能",
-    "web3": "Web3",
-    "trading": "交易",
+    "solutions": "解决方案",
+    "pricing": "定价",
     "about": "关于我们",
-    "login": "登录",
-    "signup": "立即注册"
+    "contact": "联系我们",
+    "getDemo": "获取演示"
   },
   "footer": {
-    "description": "全球领先的加密货币交易平台，提供安全、多样化的服务。",
-    "products": "产品",
-    "spotTrading": "现货交易",
-    "futuresTrading": "期货交易",
-    "apiTrading": "API 交易",
-    "eWallet": "电子钱包",
-    "support": "支持",
-    "helpCenter": "帮助中心",
-    "contact": "联系我们",
-    "reportBug": "报告错误",
-    "systemStatus": "系统状态",
+    "description": "领先的白标平台，帮助您快速、安全地部署加密货币交易所，并轻松定制。",
+    "product": "产品",
+    "whiteLabel": "白标交易所",
+    "features": "功能特点",
+    "pricing": "价格方案",
     "company": "公司",
     "aboutUs": "关于我们",
-    "careers": "职业",
-    "news": "新闻",
-    "partners": "合作伙伴",
-    "copyright": "© 2025 BitGoGet。保留所有权利。",
-    "terms": "条款",
-    "privacy": "隐私",
-    "cookies": "Cookie"
+    "contact": "联系我们",
+    "blog": "博客",
+    "getInTouch": "立即联系",
+    "contactSales": "联系销售",
+    "copyright": "© 2025 BitGoGet. 版权所有。",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "legal": "法律声明"
   },
-  "hero": {
-    "badge": "通知：全球领先的加密货币交易平台",
-    "title": "加密货币交易",
-    "titleEnd": "智能",
-    "description": "体验使用先进技术进行快速、安全的加密货币交易。",
-    "startTrading": "开始交易",
-    "learnMore": "了解更多"
+  
+    "hero": {
+    "badge": "白标交易所解决方案",
+    "heading_part1": "快速启动您的",
+    "heading_highlight": "品牌加密货币交易所",
+    "heading_part2": "",
+    "description": "ZoziTech提供白标平台，帮助企业和初创公司部署自己的加密货币交易所——安全、快速，易于根据您的品牌进行定制。",
+    "primary_cta": "获取免费演示",
+    "secondary_cta": "联系销售",
+    "trust_indicator_1": "快速部署",
+    "trust_indicator_2": "24/7技术支持"
   },
   "stats": {
     "users": "信任的用户",
@@ -44,24 +44,7 @@
     "volume": "交易量",
     "support": "客户支持"
   },
-  "features": {
-    "title": "卓越功能",
-    "description": "体验最先进的加密货币交易功能",
-    "features": [
-      {
-        "title": "即时交易",
-        "description": "以闪电般的速度执行加密货币交易。先进的匹配引擎确保交易在毫秒内完成。"
-      },
-      {
-        "title": "绝对安全",
-        "description": "利用人工智能技术进行智能风险管理。监控您的投资组合并接收重大市场波动的警报。"
-      },
-      {
-        "title": "定制策略",
-        "description": "构建自动交易策略，重新平衡投资组合，并利用深入的分析工具优化利润。"
-      }
-    ]
-  },
+  
   "web3": {
     "title": "功能",
     "title-mid": "Web3",
@@ -165,6 +148,141 @@
     "titleBefore": "顶级",
     "titleHighlight": "投资者",
     "subtitle": "由区块链和加密行业中最知名的公司支持"
+  },
+    "trusted": {
+    "heading_part1": "受到领先",
+    "heading_highlight": "加密货币和金融科技品牌",
+    "description": "BitGoGet 为全球交易所和区块链初创公司提供支持。"
+  },
+  "features": {
+    "badge": "平台解决方案 —",
+    "heading": "领先的安全可信加密货币交易平台",
+    "description1": "为企业提供全面解决方案，构建和运营专业的加密货币交易所，优化性能和安全性。",
+    "description2": "SaaS 模式帮助企业节省开发成本，轻松实现全球扩展。",
+    "cta": "立即探索",
+    "feature1_title": "数日内启动",
+    "feature1_desc": "仅需 3-7 天即可启动您的加密货币交易所，采用灵活的 SaaS 架构，最大限度降低初始开发成本。",
+    "feature2_title": "企业级安全",
+    "feature2_desc": "实施数据加密、多层访问控制、2FA 身份验证以及符合国际标准的热/冷钱包安全。",
+    "feature3_title": "全面管理",
+    "feature3_desc": "管理仪表板允许跟踪用户、交易量、利润和费用配置——全部集中在一个控制面板中。",
+    "feature4_title": "易于扩展和集成",
+    "feature4_desc": "开放 API 集成，支持多区块链和扩展模块，如 KYC、质押、推荐，轻松扩展生态系统。"
+  },
+    "howItWorks": {
+    "badge": "工作原理",
+    "heading_part1": "平台如何",
+    "heading_highlight": "运作",
+    "description": "我们的系统连接用户、API、区块链和钱包，创建完整的交易平台",
+    "step1_title": "用户",
+    "step1_desc": "通过简单直观的网页/应用界面进行交互",
+    "step1_details": "轻松注册、登录和交易",
+    "step2_title": "API 网关",
+    "step2_desc": "处理交易订单并连接到区块链",
+    "step2_details": "多层安全性，每秒处理数千笔交易",
+    "step3_title": "区块链",
+    "step3_desc": "安全地验证和记录交易",
+    "step3_details": "去中心化技术确保绝对透明",
+    "step4_title": "数字钱包",
+    "step4_desc": "存储和管理用户资产",
+    "step4_details": "多重签名安全和自动备份",
+    "bottom_text_part1": "整个过程在",
+    "bottom_text_highlight": "几秒钟",
+    "bottom_text_part2": "内完成，具有最高安全性",
+    "cta": "了解更多"
+  },
+  "pricing": {
+    "heading": "适合各种规模的灵活定价",
+    "subheading": "所有套餐均包含安全后端、API 访问和技术支持。",
+    "badge_popular": "最受欢迎",
+    "plan1_name": "基础网页交易所",
+    "plan1_target": "初创公司 / MVP",
+    "plan1_desc": "交易系统、数字钱包、网页仪表板、基础图表和 API。",
+    "plan1_price": "从 $8,000 起",
+    "plan1_cta": "申请演示",
+    "plan2_name": "专业平台（网页 + 移动端）",
+    "plan2_target": "中型企业",
+    "plan2_desc": "包含所有基础功能 + iOS/Android 应用、高级 API、KYC 和多链钱包。",
+    "plan2_price": "从 $18,000 起",
+    "plan2_cta": "联系销售",
+    "plan3_name": "定制企业解决方案",
+    "plan3_target": "集团 / 投资公司",
+    "plan3_desc": "完整白标系统、专用节点、定制 UI、24/7 专属支持。",
+    "plan3_price": "从 $35,000+ 起",
+    "plan3_cta": "专家咨询",
+    "addons_heading": "可选模块",
+    "addons_subheading": "通过附加功能升级您的交易所。",
+    "addon1_name": "TradingView 集成",
+    "addon1_price": "+$1,200",
+    "addon1_desc": "专业实时图表集成。",
+    "addon2_name": "多链钱包",
+    "addon2_price": "+$3,500",
+    "addon2_desc": "支持多条链（BTC、ETH、BSC、Solana）。",
+    "addon3_name": "移动应用界面",
+    "addon3_price": "+$5,000",
+    "addon3_desc": "现成的 React Native / Flutter 应用模板。",
+    "addon4_name": "KYC/AML 集成",
+    "addon4_price": "+$2,500",
+    "addon4_desc": "集成身份验证（SumSub、Onfido）。",
+    "addon5_name": "智能合约审计",
+    "addon5_price": "从 $4,000 起",
+    "addon5_desc": "安全性和智能合约审计服务。",
+    "bottom_heading": "需要定制解决方案？让我们一起打造您的加密货币交易所。",
+    "bottom_cta": "获取免费咨询"
+  },
+  "testimonials": {
+    "badge": "客户评价",
+    "heading": "客户的评价",
+    "description": "加入数百家信任我们平台的成功企业",
+    "client1_name": "John Smith",
+    "client1_role": "CEO, CryptoStart Inc",
+    "client1_content": "该平台帮助我们在短短 2 周内启动了交易所。白标解决方案非常灵活，支持团队也非常出色。",
+    "client2_name": "Sarah Johnson",
+    "client2_role": "CTO, BlockTrade",
+    "client2_content": "安全性和性能都是一流的。我们已经处理了超过 1 亿美元的交易，没有出现任何问题。强烈推荐给认真的企业。",
+    "client3_name": "Michael Chen",
+    "client3_role": "创始人, AsiaExchange",
+    "client3_content": "定制选项无穷无尽。我们能够完美匹配我们的品牌，并与现有系统无缝集成。"
+  },
+    "mobileApp": {
+    "badge": "移动解决方案",
+    "heading_part1": "扩展您的交易平台",
+    "heading_highlight": "在移动端",
+    "description": "通过预构建的移动应用程序为您的用户提供完整的交易体验。全面支持交易功能、资产管理和实时通知——根据您企业的品牌进行定制。",
+    "feature1": "定制标志、颜色和品牌",
+    "feature2": "现代、流畅的原生界面",
+    "feature3": "实时价格更新和通知",
+    "feature4": "生物识别安全（面容 ID、指纹 ID）",
+    "feature5": "与网页交易所平台无缝集成",
+    "cta": "查看移动端演示"
+  },
+  "contact": {
+    "heading": "联系我们",
+    "description": "留下您的信息，我们将尽快与您联系进行咨询。",
+    "label_name": "全名",
+    "placeholder_name": "张伟",
+    "label_email": "电子邮件",
+    "placeholder_email": "email@example.com",
+    "label_company": "公司",
+    "placeholder_company": "您的公司名称",
+    "label_message": "消息",
+    "placeholder_message": "详细描述您的需求...",
+    "cta": "发送咨询请求",
+    "alternative": "或通过 Telegram 联系我们："
+  },
+  "faq": {
+    "heading": "常见问题",
+    "q1": "平台可以集成哪些区块链？",
+    "a1": "我们的平台支持与多种流行区块链集成，如比特币、以太坊、币安智能链、Polygon 等。您可以根据业务需求进行定制。",
+    "q2": "是否支持自定义品牌？",
+    "a2": "是的，我们提供完全白标解决方案。您可以自定义标志、颜色、域名和整个界面，以匹配您企业的品牌。",
+    "q3": "如何确保用户安全？",
+    "a3": "我们采用银行级安全标准，包括 2FA 身份验证、端到端数据加密、冷钱包存储和定期安全审计，以确保用户绝对安全。",
+    "q4": "我可以自定义界面吗？",
+    "a4": "完全可以！我们的平台设计灵活，允许您通过管理仪表板根据需要自定义界面、布局和用户体验。",
+    "q5": "部署费用是多少？",
+    "a5": "部署费用取决于您需要的规模和功能。我们提供灵活的解决方案套餐，适合从初创公司到大型企业的各种规模。联系我们以获取详细报价。"
   }
 }
+  
 

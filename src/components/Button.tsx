@@ -7,7 +7,7 @@ export const Button = ({
     variant?: "default" | "ghost";
 }) => {
     const base =
-        "px-4 py-2 rounded font-semibold focus:outline-none transition-colors";
+        "px-4 py-2 cursor-pointer rounded font-semibold focus:outline-none transition-colors";
     const variants = {
         default: " bg-[#f7a600] rounded-md transition-transform shadow-lg",
         ghost: "",

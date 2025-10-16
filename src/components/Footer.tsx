@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Twitter, Facebook, Instagram } from 'lucide-react';
+import { Twitter, Send, MessageCircle, Mail } from 'lucide-react';
 import logobgg from '../../public/Img/logo-text.webp';
 import Image from 'next/image';
 
@@ -9,78 +9,142 @@ const Footer = () => {
   const t = useTranslations('footer');
 
   return (
-    <footer className="bg-gray-900 text-white py-8 px-4 border-t border-gray-800">
+    <footer className="bg-gradient-to-b from-black to-[#0a0a0a] border-t border-gray-800">
       {/* Main Footer Content */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 text-center md:text-left">
-        {/* Column 1: Logo and Description */}
-        <div className="flex flex-col items-center md:items-start">
-          <div className="flex items-center mb-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+        {/* Logo and Description - Full width on mobile */}
+        <div className="mb-8 lg:mb-12">
+          <div className="mb-4">
             <Image 
               src={logobgg} 
-              alt="CryptoTCB" 
-              width={150} 
-              height={50}
-              style={{ width: "auto", height: "auto" }} 
+              alt="BitGoGet Logo" 
+              width={140} 
+              height={40}
+              className="w-32 sm:w-36 h-auto"
               priority
             />
           </div>
-          <p className="text-sm text-gray-400 leading-relaxed max-w-xs">
+          <p className="text-sm text-gray-400 leading-relaxed mb-6 max-w-md">
             {t('description')}
           </p>
-          <div className="flex space-x-3 mt-4">
-            <a href="#" className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center hover:bg-[#f7a600] transition-colors">
-              <Twitter className="w-5 h-5 text-gray-300 hover:text-white" />
+          
+          {/* Social Icons */}
+          <div className="flex gap-3">
+            <a 
+              href="#" 
+              className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#f7a600] transition-all duration-300 group"
+              aria-label="Twitter"
+            >
+              <Twitter className="w-5 h-5 text-gray-400 group-hover:text-black transition-colors" />
             </a>
-            <a href="#" className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center hover:bg-[#f7a600] transition-colors">
-              <Facebook className="w-5 h-5 text-gray-300 hover:text-white" />
+            <a 
+              href="#" 
+              className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#f7a600] transition-all duration-300 group"
+              aria-label="Telegram"
+            >
+              <Send className="w-5 h-5 text-gray-400 group-hover:text-black transition-colors" />
             </a>
-            <a href="#" className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center hover:bg-[#f7a600] transition-colors">
-              <Instagram className="w-5 h-5 text-gray-300 hover:text-white" />
+            <a 
+              href="#" 
+              className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#f7a600] transition-all duration-300 group"
+              aria-label="Discord"
+            >
+              <MessageCircle className="w-5 h-5 text-gray-400 group-hover:text-black transition-colors" />
             </a>
           </div>
         </div>
 
-        {/* Sản phẩm */}
-        <div>
-          <h3 className="text-lg font-semibold mb-4 text-[#f7a600]">{t('products')}</h3>
-          <ul className="text-sm text-gray-400 space-y-2">
-            <li className="hover:text-[#f7a600] cursor-pointer transition-colors">{t('spotTrading')}</li>
-            <li className="hover:text-[#f7a600] cursor-pointer transition-colors">{t('futuresTrading')}</li>
-            <li className="hover:text-[#f7a600] cursor-pointer transition-colors">{t('apiTrading')}</li>
-            <li className="hover:text-[#f7a600] cursor-pointer transition-colors">{t('eWallet')}</li>
-          </ul>
-        </div>
+        {/* Footer Links Grid */}
+        <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
 
-        {/* Hỗ trợ */}
-        <div>
-          <h3 className="text-lg font-semibold mb-4 text-[#f7a600]">{t('support')}</h3>
-          <ul className="text-sm text-gray-400 space-y-2">
-            <li className="hover:text-[#f7a600] cursor-pointer transition-colors">{t('helpCenter')}</li>
-            <li className="hover:text-[#f7a600] cursor-pointer transition-colors">{t('contact')}</li>
-            <li className="hover:text-[#f7a600] cursor-pointer transition-colors">{t('reportBug')}</li>
-            <li className="hover:text-[#f7a600] not-[]:cursor-pointer transition-colors">{t('systemStatus')}</li>
-          </ul>
-        </div>
+          {/* Column 1: Product */}
+          <div>
+            <h3 className="text-base font-bold mb-4 text-white">
+              {t('product')}
+            </h3>
+            <ul className="space-y-3">
+              <li>
+                <a href="#platform" className="text-sm text-gray-400 hover:text-[#f7a600] transition-colors cursor-pointer block">
+                  {t('whiteLabel')}
+                </a>
+              </li>
+              <li>
+                <a href="#features" className="text-sm text-gray-400 hover:text-[#f7a600] transition-colors cursor-pointer block">
+                  {t('features')}
+                </a>
+              </li>
+              <li>
+                <a href="#pricing" className="text-sm text-gray-400 hover:text-[#f7a600] transition-colors cursor-pointer block">
+                  {t('pricing')}
+                </a>
+              </li>
+            </ul>
+          </div>
 
-        {/* Công ty */}
-        <div>
-          <h3 className="text-lg font-semibold mb-4 text-[#f7a600]">{t('company')}</h3>
-          <ul className="text-sm text-gray-400 space-y-2">
-            <li className="hover:text-[#f7a600] cursor-pointer transition-colors">{t('aboutUs')}</li>
-            <li className="hover:text-[#f7a600] cursor-pointer transition-colors">{t('careers')}</li>
-            <li className="hover:text-[#f7a600] cursor-pointer transition-colors">{t('news')}</li>
-            <li className="hover:text-[#f7a600] cursor-pointer transition-colors">{t('partners')}</li>
-          </ul>
+          {/* Column 2: Company */}
+          <div>
+            <h3 className="text-base font-bold mb-4 text-white">
+              {t('company')}
+            </h3>
+            <ul className="space-y-3">
+              <li>
+                <a href="#about" className="text-sm text-gray-400 hover:text-[#f7a600] transition-colors cursor-pointer block">
+                  {t('aboutUs')}
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-sm text-gray-400 hover:text-[#f7a600] transition-colors cursor-pointer block">
+                  {t('contact')}
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-sm text-gray-400 hover:text-[#f7a600] transition-colors cursor-pointer block">
+                  {t('blog')}
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Column 3: Contact */}
+          <div>
+            <h3 className="text-base font-bold mb-4 text-white">
+              {t('getInTouch')}
+            </h3>
+            <div className="space-y-4">
+              <a 
+                href="mailto:support@bitgoget.com" 
+                className="flex items-start gap-2 text-sm text-gray-400 hover:text-[#f7a600] transition-colors break-all"
+              >
+                <Mail className="w-4 h-4 flex-shrink-0 mt-0.5" />
+                <span className="break-all">support@bitgoget.com</span>
+              </a>
+              <button className="w-full bg-[#f7a600] text-black font-semibold px-6 py-2.5 rounded-lg hover:bg-amber-500 transition-all duration-300 text-sm whitespace-nowrap">
+                {t('contactSales')}
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
-      {/* Bottom Section */}
-      <div className="max-w-7xl mx-auto mt-6 text-center text-xs text-gray-500 border-t border-gray-800 pt-4">
-        <p>{t('copyright')}</p>
-        <div className="mt-2 space-x-4">
-          <a href="#" className="hover:text-[#f7a600] transition-colors">{t('terms')}</a>
-          <a href="#" className="hover:text-[#f7a600] transition-colors">{t('privacy')}</a>
-          <a href="#" className="hover:text-[#f7a600] transition-colors">{t('cookies')}</a>
+      {/* Bottom Bar */}
+      <div className="border-t border-gray-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p className="text-xs sm:text-sm text-gray-500 text-center sm:text-left">
+              {t('copyright')}
+            </p>
+            <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-xs sm:text-sm">
+              <a href="#" className="text-gray-500 hover:text-[#f7a600] transition-colors whitespace-nowrap">
+                {t('privacy')}
+              </a>
+              <a href="#" className="text-gray-500 hover:text-[#f7a600] transition-colors whitespace-nowrap">
+                {t('terms')}
+              </a>
+              <a href="#" className="text-gray-500 hover:text-[#f7a600] transition-colors whitespace-nowrap">
+                {t('legal')}
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
